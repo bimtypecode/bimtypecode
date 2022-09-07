@@ -1,0 +1,415 @@
+0	Generiska objekt	1	
+01	Generiska objekt A	2	
+011	<FRI>	3	
+02	Generiska objekt K	2	
+021	<FRI>	3	
+03	Generiska objekt V	2	
+031	<FRI>	3	
+04	Generiska objekt W	2	
+041	<FRI>	3	
+05	Generiska objekt E	2	
+051	<FRI>	3	
+06	Generiska objekt L	2	
+061	<FRI>	3	
+07	Generiska objekt P	2	
+071	<FRI>	3	
+09	Generiska objekt, övrigt	2	
+091	<FRI>	3	
+1	Grundläggning	1	
+10	Terräng	2	
+101	Bearbetad undergrund	3	
+102	Bygggrop inkl. förstyvande	3	
+103	Spontning	3	
+104	<vakant>	3	
+105	Prefabricerade pålar	3	
+109	Övrigt, grundläggning i terräng	3	
+12	Fundament	2	
+121	Grundsulor, kantbalk	3	
+122	Grundplintar	3	
+123	Grundplattor	3	
+124	Murad fundament	3	
+125	Maskinfundament	3	
+126	Pålfundament	3	
+127	<vakant>	3	
+129	Övrigt, fundament	3	
+13	Platta, byggnad	2	
+131	Grundplatta	3	
+139	Övrigt, platta	3	
+19	Byggbasis byggnad, övrigt	2	
+191	Kanaler under platta	3	
+192	Gropar och träsk	3	
+2	Primära byggdelar	1	
+20	Primära byggdelar, Terräng	2	
+201	Fristående murar	3	
+202	Stödmurar	3	
+203	Kulvertar	3	
+204	Gångbroar, viadukter mm.	3	
+205	Trappor i terräng	3	
+206	Ramper i terräng	3	
+209	Övrigt, primära byggdelar i terräng	3	
+21	Yttervägg	2	
+211	Utvändiga prefabricerade element	3	
+212	Utvändiga platsgjutna väggar	3	
+213	Utvändiga uppmurade väggar	3	
+214	Utvändiga uppreglade väggar	3	
+215	Utvändiga uppreglade väggskörtar	3	
+216	Utvändiga fasadsystem	3	
+217	Utvändiga väggisolering	3	
+218	Utvändiga ljusschakt	3	
+219	Övrigt, yttervägg	3	
+22	Innervägg	2	
+221	Invändiga prefabricerade element	3	
+222	Invändiga platsgjutna väggar	3	
+223	Invändiga uppmurade väggar	3	
+224	Invändiga uppreglade väggar	3	
+225	Invändiga uppreglade väggskörtar	3	
+226	Invändiga glasväggsystem	3	
+229	Övrigt, innervägg	3	
+23	Bjälklag	2	
+231	Prefabricerade bjälklag	3	
+232	Platsgjutna bjälklag	3	
+233	Uppreglade bjälklag	3	
+234	Pågjutningar	3	
+239	Övrigt, Bjälklag	3	
+24	Trappor och ramper	2	
+241	Prefabricerade trappor	3	
+242	Platsgjutna trappor	3	
+243	Sammansatta trappor	3	
+244	Prefabricerade ramper	3	
+245	Platsgjutna ramper	3	
+246	Sammansatta ramper	3	
+247	Fasta stegar, lejdare och trappsteg	3	
+249	Övrigt, trappor och ramper	3	
+25	Balkar och pelare	2	
+251	Prefabricerade balkar	3	
+252	Platsgjutna balkar	3	
+253	Stålbalkar	3	
+254	<vakant>	3	
+255	Prefabricerade pelare	3	
+256	Platsgjutna pelare	3	
+257	Stålpelare	3	
+259	Övrigt, balkar och pelare	3	
+26	Balkonger och loftgångar	2	
+261	Prefabricerade balkongplattor och loftgångar	3	
+262	Platsgjutna balkonplattor och loftgångar	3	
+263	Sammansatta balkongplattor och loftgångar	3	
+269	Övrigt, balkonger och loftgångar	3	
+27	Tak	2	
+271	Yttertak	3	
+272	Takkassetter 	3	
+273	Varma tak	3	
+274	Glastakssystem	3	
+275	Mobila tak	3	
+276	Skärmtak	3	
+279	Övrigt, takkonstruktioner	3	
+29	Primära byggdelar, övrigt	2	
+3	Kompletterande byggdelar	1	
+30	Kompletterande byggdelar, Terräng	2	
+301	Staket, avskärmningar	3	
+302	Räcken, ledstänger i terräng	3	
+303	Övergångar i terräng	3	
+304	Kantstöd	3	
+305	Växtbäddar och planteringskärl	3	
+309	Övrigt, terrängkompletteringar	3	
+31	Yttervägg, kompletteringar	2	
+311	Utvändiga dörrar	3	
+312	Utvändiga fönster	3	
+313	Utvändiga dörrar, fasadsystem	3	
+314	Utvändiga fönsteröppningar, fasadsystem	3	
+315	Utvändiga paneler, solavskärmningar, karmprofiler, fasadsystem	3	
+316	Utvändiga portar och karuselldörrar	3	
+317	Utvändiga avskärmningar	3	
+319	Övrigt, ytterväggskompletteringar	3	
+32	Innervägg, kompletteringar	2	
+321	Invändiga dörrar	3	
+322	Invändiga fönster, luckor	3	
+323	Invändiga dörrar, glasväggssystem	3	
+324	Invändiga fönsteröppningar, glasväggssystem	3	
+325	Invändiga paneler, solavskärmningar, karmprofiler, glasväggssystem	3	
+326	Invändiga portar och karuselldörrar	3	
+327	Rörliga innerväggar	3	
+328	Invändiga avskärmningar	3	
+329	Övrigt, innerväggskompletteringar	3	
+33	Bjälklag och golv, kompletteringar	2	
+331	Uppbyggda golv	3	
+332	Flytande golv	3	
+333	Gallerdurk, torkmattor	3	
+334	Platsgjutna golv	3	
+335	<vakant>	3	
+336	<vakant>	3	
+337	Golvluckor	3	
+338	Räcken och handledare	3	
+339	Övrigt, bjälklagskompletteringar	3	
+34	Trappor och ramper, kompletteringar	2	
+341	Räcken och handledare	3	
+342	<vakant>	3	
+343	<vakant>	3	
+349	Övrigt, trappkompletteringar	3	
+35	Undertak, kompletteringar	2	
+351	Invändiga nedpendlade undertak	3	
+352	Utvändiga nedpendlade undertak	3	
+353	Invändiga diktmonterade undertak	3	
+354	Utvändiga diktmonterade undertak	3	
+355	Invändiga undertaksskört	3	
+356	Utvändiga undertaksskört	3	
+357	<vakant>	3	
+359	Övrigt, undertakskompletteringar	3	
+36	Balkonger och loftgångar, kompletteringar	2	
+361	Balkongräcke	3	
+369	Övrigt, balkong och loftgångskompletteringar	3	
+37	Tak, kompletteringar	2	
+371	Takkupor	3	
+372	Takfönster, rök- och uppstigningsluckor	3	
+373	Solavskärmning till takfönster	3	
+374	Taksäkerhet	3	
+375	<vakant>	3	
+376	Täckplåtar	3	
+377	Beläggningar på färdigt tak	3	
+379	Övrigt, takkompletteringar	3	
+39	Kompletterande byggdelar, övrigt	2	
+4	Ytbehandling	1	
+40	Markbeläggningar och markmaterial 	2	
+401	Asfaltbeläggningar	3	
+402	Platsgjuten betong	3	
+403	Gummibeläggningar	3	
+404	Platt- och stenbeläggningar	3	
+405	Makadam och grus 	3	
+406	Stenläggning	3	
+407	Linjemarkeringar och markmålningar	3	
+409	Övrigt, markbeläggningar och markmaterial 	3	
+41	Utvändiga väggmaterial	2	
+411	<vakant>	3	
+412	Murad, puts	3	
+413	Monterad	3	
+419	Övrigt, utvändiga väggmaterial	3	
+42	Invändiga väggmaterial	2	
+421	<vakant>	3	
+422	Murad, puts	3	
+423	Monterad	3	
+429	Övrigt, invändiga väggmaterial	3	
+43	Bjälklag och golvmaterial	2	
+431	<vakant>	3	
+432	Murad, gjutna	3	
+433	Monterad	3	
+439	Övrigt, bjälklag och golvmaterial	3	
+44	Trappor och ramper, material	2	
+441	<vakant>	3	
+442	Murad	3	
+443	Monterad	3	
+449	Övrigt, trappor och ramper, material	3	
+45	Undertak, materal	2	
+451	<vakant>	3	
+452	Murad	3	
+453	Monterad	3	
+459	Övrigt, undertaksmaterial	3	
+46	Balkonger, ytmaterial	2	
+461	<vakant>	3	
+462	Murad	3	
+463	Monterad	3	
+469	Övrigt, balkongmaterial	3	
+47	Tak, ytmaterial	2	
+471	<vakant>	3	
+472	Taktäckning	3	
+479	Övrigt, takmaterial	3	
+49	Ytbehandling, övriga byggnadsdelar	2	
+5	VA-, VVS-, kyl och proccessmediesystem	1	
+50	Rörsystem i anläggning	2	
+501	Ledningar av metall i mark	3	
+502	Flexibla ledningar av plast i mark	3	
+503	Styva ledningar av plats i mark	3	
+504	Brunnar i mark	3	
+505	Galler/Linjeavlopp	3	
+506	Avskiljningsbrunnar (olja, fett, bensin mm.)	3	
+507	Sanitära anslutningar	3	
+508	Tillbehör	3	
+509	Övrigt, rörsystem i anläggning	3	
+51	Logistik	2	
+511	Avfallstransport- och logistiksystem	3	
+519	Övrigt, logistik	3	
+52	Avlopp och sanitet	2	
+521	Spillvatten, anslutningar	3	
+522	Toalett, anslutningar	3	
+523	Tvättställ, anslutningar	3	
+524	Vatten- och avloppsanslutningar	3	
+525	Vatten- och avloppsanslutningar till tekninsk utrustning	3	
+526	Vatten- och avloppsanslutningar till laboratorieutrustningar	3	
+527	Regnvatten, anslutningar	3	
+528	Avlopp-, sanitets- och regnvattenartiklar	3	
+529	Övrigt, avloppsvatten och tappvatten	3	
+53	Vatten (Tappvatten- och processvattensystem)	2	
+531	Mekanisk utrustning	3	
+532	Vattenanslutningar	3	
+533	Vattenbehandlingssystem	3	
+534	Brandsläckning, anslutningar	3	
+535	Mätare, Vatten	3	
+536	Beslag, vattenarmaturer	3	
+539	Övrigt, Vatten	3	
+54	Lufttyper (gas, lufttryck, vakuum, ånga)	2	
+541	Mekanisk utrustning	3	
+542	Luftuttag	3	
+543	Luftproduktionssystem	3	
+545	Tillbehör	3	
+546	Mätare, lufttyper	3	
+549	Övrigt, lufttyper	3	
+55	Kyla	2	
+551	Mekanisk utrustning	3	
+552	Kylaggregat	3	
+553	Kylproducerande installationer	3	
+554	Mätare, kyla	3	
+559	Övrigt, kyla	3	
+56	Värme	2	
+561	Mekanisk utrustning	3	
+562	Värmeaggregat	3	
+563	Värmeproducerande installationer	3	
+564	Mätare, värme	3	
+569	Övrigt, värme	3	
+57	Ventilation	2	
+571	Kanaler	3	
+572	Apparater i luftbehandlingssystem	3	
+573	Kanaltillbehör	3	
+574	Fläktar	3	
+575	Luftdon	3	
+576	Anslutningar till utrustningar	3	
+577	Takhuvar/kanalgenomföringar	3	
+578	Kanalisolering	3	
+579	Övrigt, ventilation	3	
+58	Sprinkler	2	
+581	Mekanisk utrustning	3	
+582	Sprinklerhuvuden	3	
+583	Brandskåp	3	
+589	Övrigt, sprinkler	3	
+59	Tvärgående delar, VVS	2	
+591	Rör av metall	3	
+592	Flexibla plaströr	3	
+593	Hårda plaströr	3	
+594	Statiska ventiler	3	
+595	Dynamiska ventiler	3	
+596	Motordrivna ventiler	3	
+597	Mätare, filter och övrigt	3	
+598	Rörisolering	3	
+599	Beslag, utsparingar och övrigt	3	
+6	El- och mekaniska anäggningar	1	
+60	El- och mekaniska anläggningar, Terräng	2	
+601	Ledningar	3	
+602	Belysning	3	
+603	Installationer i mark	3	
+604	Installationer på mark	3	
+605	Trafikstyrningar	3	
+606	Kanalisation under mark	3	
+609	Övrigt, el- och mekaniska anläggningar, terräng	3	
+61	Kanalisation	2	
+611	Rännor/stegar	3	
+612	Kanaler	3	
+613	Kabelrör	3	
+614	Fiberrännor	3	
+615	Beslag, utsparningar och övrigt	3	
+616	Dosor och ingjutningar	3	
+619	Övrigt, kanalisation	3	
+62	Högspänning	2	
+621	Försörjning 	3	
+622	Fördelning	3	
+623	Installationer för apparater och maskiner	3	
+629	Övrigt, högspänning	3	
+63	Lågspänning	2	
+631	Extern försörjning 	3	
+632	Fördelning	3	
+633	Installationer för apparater och maskiner	3	
+634	Termisk anläggning	3	
+635	Belysningsinstallationer	3	
+636	Belysningsarmaturer	3	
+637	Kraftinstallationer	3	
+638	Förnyelsebar energi - intern försörjning 	3	
+639	Övrigt, lågspänning	3	
+64	Kommunikation och information	2	
+641	Kommunikation	3	
+642	Information	3	
+643	Audio, video och antenner	3	
+644	IT-infrastruktur	3	
+649	Övrigt, kommunikation och information	3	
+65	Övervakningssystem	2	
+651	Inbrottssäkerhet	3	
+652	Säkerhetssystem	3	
+653	Personsäkerhet 	3	
+659	Övrigt, övervakningssystem	3	
+66	Styr	2	
+661	Styrsystem	3	
+662	Överordnat styrsystem	3	
+663	Decentraliserat styrsystem	3	
+664	Automatikkomponenter	3	
+669	Övrigt, styr	3	
+67	Spänningsutjämning	2	
+671	Överspänningsskydd	3	
+672	Spänningsutjämning	3	
+679	Övrigt, spänningsutjämning	3	
+68	Person- och material- och servicetransport	2	
+681	Persontransport	3	
+682	Gods- och materialtransport	3	
+683	Servicetransport	3	
+689	Övrigt, person-, material- och servicetransport	3	
+69	El- och mekaniska anläggingar, övrigt	2	
+7	Inredning och teknisk utrustning	1	
+70	Utrustning, terräng	2	
+701	Teknisk utrustning	3	
+702	Tavlor, skyltar, skärmar	3	
+703	Förråd, papperskorgar, cykelställ, brevlådor	3	
+704	Bord	3	
+705	Sittmöbler	3	
+706	Avskärmningar	3	
+707	Sport och lekutrustningar	3	
+709	Övrigt, utrustning i terräng	3	
+71	Inredning, fastmonterat	2	
+711	Förvaringsmöbler, fastmonterade	3	
+712	<vakant>	3	
+713	Sittmöbler, liggmöbler	3	
+714	Gardiner, persienner, skärmväggar	3	
+715	Bord, bänk	3	
+716	Skyltar, tavlor	3	
+717	Utsmyckning	3	
+719	Övrigt, fastmonterad inredning	3	
+72	Inredning, lös	2	
+721	Förvaringsmöbler, lösa	3	
+722	<vakant>	3	
+723	Sittmöbler, liggmöbler	3	
+724	Skärmväggar, gardiner	3	
+725	Bord	3	
+726	Ställningar	3	
+727	Mattor	3	
+729	Övrigt, lös inredning	3	
+73	Utrustning, teknisk-, IT- och AV-utrustning	2	
+731	AV-utrustning	3	
+732	IT-utrustning	3	
+733	Belysning	3	
+734	Automater	3	
+735	Brandsläckningsutrustning	3	
+736	Vitvaror	3	
+739	Övrigt, teknisk-, IT- och AV-utrustning	3	
+79	Utrustning, övrigt	2	
+8	Plantering	1	
+80	Plantering	2	
+801	Träd	3	
+802	Buskar och häckar	3	
+803	Växtjord	3	
+804	Marktäckare och perenner	3	
+805	Gräsytor	3	
+806	Extensiva gröna tak och väggar	3	
+807	Intensiva gröna tak	3	
+809	Övrig plantering	3	
+81	<vakant>	2	
+89	Plantering, övrigt	2	
+9	Projektutrustning	1	
+91	Projektutrustning A	2	
+911	<FRI>	3	
+92	Projektutrustning K	2	
+921	<FRI>	3	
+93	Projektutrustning V	2	
+931	<FRI>	3	
+94	Projektutrustning W	2	
+941	<FRI>	3	
+95	Projektutrustning E	2	
+951	<FRI>	3	
+96	Projektutrustning L	2	
+961	<FRI>	3	
+97	Projektutrustning Entreprenör/Leverantör	2	
+971	<FRI>	3	
+99	Projektutrustning, övrigt	2	
+991	<FRI>	3	

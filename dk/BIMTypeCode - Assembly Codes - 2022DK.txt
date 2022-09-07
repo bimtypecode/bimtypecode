@@ -1,0 +1,415 @@
+0	Generiske objekter	1	
+01	Generiske objekter ARK	2	
+011	FRI	3	
+02	Generiske objekter KON	2	
+021	FRI	3	
+03	Generiske objekter VENT	2	
+031	FRI	3	
+04	Generiske objekter VVS	2	
+041	FRI	3	
+05	Generiske objekter EL	2	
+051	FRI	3	
+06	Generiske objekter LAND	2	
+061	FRI	3	
+07	Generiske objekter Entreprenør/Leverandør	2	
+071	FRI	3	
+09	Generiske objekter, øvrigt	2	
+091	FRI	3	
+1	Bygningsbasis	1	
+10	Terræn	2	
+101	Forberedt grund	3	
+102	Byggegrube inkl. afstivning	3	
+103	Spunsvægge	3	
+104	- verkant -	3	
+105	Pæle 	3	
+109	Øvrigt, Bygningsbasis i terræn	3	
+12	Fundamenter	2	
+121	Liniefundamenter	3	
+122	Punktfundamenter	3	
+123	Pladefundamenter	3	
+124	Opmurede fundamenter	3	
+125	Maskinfundamenter	3	
+126	Pælefundamenter og brøndfundamenter	3	
+127	- verkant -	3	
+129	Øvrigt, Fundamenter	3	
+13	Terrændæk	2	
+131	Terrændæk	3	
+139	Øvrigt, Terrændæk	3	
+19	Bygningsbasis, øvrige	2	
+191	Kanaler under terrændæk	3	
+192	Gruber og sumpe	3	
+2	Primære bygningsdele	1	
+20	Primære bygningsdele, terræn	2	
+201	Hegnsmure	3	
+202	Støttemure	3	
+203	Teknikgange 	3	
+204	Fodgængerbroer, viadukter m.m.	3	
+205	Trapper i terræn	3	
+206	Ramper i terræn	3	
+209	Øvrigt, Primære bygningsdele i terræn	3	
+21	Ydervægge	2	
+211	Udvendige vægelementer	3	
+212	Udvendige pladsstøbte vægge	3	
+213	Udvendige opmurede vægge	3	
+214	Udvendige skeletkonstruerede vægge	3	
+215	Udvendige skeletkonstruerede vægskørter	3	
+216	Udvendige facadesystemer	3	
+217	Udvendige isoleringsvægsystemer	3	
+218	Udvendige lyskasser	3	
+219	Øvrigt, Ydervægge	3	
+22	Indervægge	2	
+221	Indvendige vægelementer	3	
+222	Indvendige pladsstøbte vægge	3	
+223	Indvendige opmurede vægge	3	
+224	Indvendige skeletkonstruerede vægge	3	
+225	Indvendige skeletkonstruerede vægskørter	3	
+226	Indvendige glasvægsystemer	3	
+229	Øvrigt, Indervægge	3	
+23	Dæk	2	
+231	Dækelementer	3	
+232	Pladsstøbte dæk	3	
+233	Skeletkonstruerede dæk	3	
+234	Afretningslag	3	
+239	Øvrigt, Dæk	3	
+24	Trapper og ramper	2	
+241	Elementtrapper	3	
+242	Pladsstøbte trapper	3	
+243	Sammensatte trapper	3	
+244	Element ramper	3	
+245	Pladsstøbte ramper	3	
+246	Sammensatte ramper	3	
+247	Faste stiger, lejdere og trin	3	
+249	Øvrigt, Trapper og ramper	3	
+25	Bjælker og søjler	2	
+251	Elementbjælker	3	
+252	Pladsstøbte bjælker	3	
+253	Stålbjælker	3	
+254	- verkant -	3	
+255	Elementsøjler	3	
+256	Pladsstøbte søjler	3	
+257	Stålsøjler	3	
+259	Øvrigt, Bjælker og søjler	3	
+26	Altaner og altangange	2	
+261	Elementaltaner og altangange	3	
+262	Pladsstøbte altaner og altangange	3	
+263	Sammensatte altaner, altangange	3	
+269	Øvrigt, Altaner og altangange	3	
+27	Tage	2	
+271	Spærtage	3	
+272	Tagkassetter	3	
+273	Varme tage	3	
+274	Glastagssystemer	3	
+275	Mobile tage	3	
+276	Baldakiner og overdækninger	3	
+279	Øvrigt, Tagværker	3	
+29	Primære bygningsdele, øvrige	2	
+3	Kompletterende bygningsdele	1	
+30	Kompletterende bygningsdele, terræn	2	
+301	Hegn, afskærmninger	3	
+302	Gelændere, rækværker og håndlister i terræn	3	
+303	Overgange i terræn	3	
+304	Kantbegrænsninger	3	
+305	Konstruerede elementer	3	
+309	Øvrigt terræn komplettering	3	
+31	Ydervægge, komplettering	2	
+311	Udvendige døre 	3	
+312	Udvendige vinduer	3	
+313	Udvendige døre, facadesystemer	3	
+314	Udvendige vinduesopluk, facadesystemer	3	
+315	Udvendige ruder, blændfelter og karmprofiler, facadesystemer	3	
+316	Udvendige porte og karusseldøre	3	
+317	Udvendige afskærmninger	3	
+319	Øvrigt, Ydervægskompletteringer	3	
+32	Indervægge, komplettering	2	
+321	Indvendige døre	3	
+322	Indvendige vinduer, luger og lemme	3	
+323	Indvendige døre, glasvægsystem	3	
+324	Indvendige vinduesopluk, glasvægsystemer	3	
+325	Indvendige ruder, blændfelter og karmprofiler,glasvægsystemer	3	
+326	Indvendige porte og karruseldøre	3	
+327	Bevægelige indervægge	3	
+328	Indvendige, afskærmning	3	
+329	Øvrigt, Indervægskompletteringer	3	
+33	Dæk og gulve, komplettering	2	
+331	Opbyggede gulve	3	
+332	Svømmende gulve	3	
+333	Riste, måtterammer	3	
+334	Støbte- og flydende gulve	3	
+335	- verkant -	3	
+336	- verkant -	3	
+337	Gulvlemme	3	
+338	Gelændere, rækværker og håndlister	3	
+339	Øvrigt, Dækkompletteringer	3	
+34	Trapper og ramper, komplettering	2	
+341	Gelændere, rækværker og håndlister	3	
+342	- verkant -	3	
+343	- verkant -	3	
+349	Øvrigt, Trappekompletteringer	3	
+35	Lofter, komplettering	2	
+351	Indvendige nedhængte lofter	3	
+352	Udvendige nedhængte lofter	3	
+353	Indvendige påbyggede lofter	3	
+354	Udvendige påbyggede lofter	3	
+355	Indvendige loftskørter	3	
+356	Udvendige loftskørter	3	
+357	- verkant -	3	
+359	Øvrigt, Loftkompletteringer	3	
+36	Altaner og altangange, komplettering	2	
+361	Rækværker, brystninger	3	
+369	Øvrigt, Altaner og altangange kompletteringer	3	
+37	Tage, komplettering	2	
+371	Kviste	3	
+372	Ovenlys, røg- og taglemme	3	
+373	Solskærme til ovenlys	3	
+374	Sikring	3	
+375	- verkant -	3	
+376	Inddækninger	3	
+377	Belægninger på færdige tagflader	3	
+379	Øvrigt, Tagkompletteringer	3	
+39	Kompletterende bygningsdele bygning, øvrige	2	
+4	Overfladebygningsdele	1	
+40	Overflader, terræn	2	
+401	Asfalt belægninger	3	
+402	Betonstøbte belægninger	3	
+403	Gummibelægninger	3	
+404	Flise -og stenbelægninger	3	
+405	Skærver og grus	3	
+406	Brolægning	3	
+407	Afstribninger og markeringer	3	
+409	Øvrigt, Belægninger	3	
+41	Udvendige vægoverflader	2	
+411	- verkant -	3	
+412	Beklædninger, påmurede, pudsede	3	
+413	Beklædninger, monterede	3	
+419	Øvrigt, Udvendige vægoverflader	3	
+42	Indvendige vægoverflader	2	
+421	- verkant -	3	
+422	Beklædninger, påmurede, pudsede	3	
+423	Beklædninger, monterede	3	
+429	Øvrigt, Indvendige vægoverflader	3	
+43	Dæk og gulve, overflader	2	
+431	- verkant -	3	
+432	Beklædninger, påmurede og støbte	3	
+433	Beklædninger, monterede	3	
+439	Øvrigt, Dæk og gulvoverflader	3	
+44	Trapper og ramper, overflader	2	
+441	- verkant -	3	
+442	Beklædninger, påmurede	3	
+443	Beklædninger, monterede	3	
+449	Øvrigt, Trapper og ramper, overflader	3	
+45	Lofter, overflader	2	
+451	- verkant -	3	
+452	Beklædninger, påmurede	3	
+453	Beklædninger, monterede	3	
+459	Øvrigt, Loftoverflader	3	
+46	Altaner, overflader	2	
+461	- verkant -	3	
+462	Beklædninger, påmurede	3	
+463	Beklædninger, monterede	3	
+469	Øvrigt, Altanoverflader	3	
+47	Tage, overflader	2	
+471	- verkant -	3	
+472	Tagdækninger	3	
+479	Øvrigt, Tagoverflader	3	
+49	Overflader bygning, øvrige	2	
+5	VVS- og ventilationsanlæg	1	
+50	VVS-anlæg, terræn	2	
+501	Metal- og betonrør i jord	3	
+502	Fleksible plastrør i jord	3	
+503	Hårde plastrør i jord	3	
+504	Brønde	3	
+505	Riste/Linjedræn	3	
+506	Udskiller (Olie, fedt, benzin mv.)	3	
+507	Sanitetstilslutninger	3	
+508	Tilbehør	3	
+509	Øvrigt, VVS-anlæg terræn	3	
+51	Logistik	2	
+511	Affalds- og logistiksystemer	3	
+519	Øvrigt, Logistik	3	
+52	Afløb og sanitet	2	
+521	Spildevand, tilslutninger	3	
+522	Toiletter, tilslutninger	3	
+523	Vaske, tilslutninger	3	
+524	Vand- og afløb, tilslutninger	3	
+525	Vand- og afløb, tilslutninger til teknisk udstyr	3	
+526	Vand- og afløb, tilslutninger til lab. udstyr	3	
+527	Regnvand, tilslutninger	3	
+528	Afløbs-, Sanitets- og Regnvandsgenstande	3	
+529	Øvrigt, Afløb og sanitet, tilslutninger	3	
+53	Vand (koldt/varmt vand, behandlet vand)	2	
+531	Mekanisk udstyr	3	
+532	Vandtilslutninger	3	
+533	Vandbehandlingsanlæg	3	
+534	Brandslukning, tilslutninger	3	
+535	Målere, Vand	3	
+536	Armaturer-, Vandgenstande	3	
+539	Øvrigt, Vand	3	
+54	Luftarter (gas, trykluft, vakuum, damp)	2	
+541	Mekanisk udstyr	3	
+542	Luftartsudtag	3	
+543	Luftartsproducerende anlæg	3	
+545	Tilbehør	3	
+546	Målere, Luftarter	3	
+549	Øvrigt, Luftarter	3	
+55	Køling	2	
+551	Mekanisk udstyr	3	
+552	Kølegivere	3	
+553	Køleproducerende anlæg	3	
+554	Målere, Køling	3	
+559	Øvrigt, Køling	3	
+56	Varme	2	
+561	Mekanisk udstyr	3	
+562	Varmegivere	3	
+563	Varmeproducerende anlæg	3	
+564	Målere, Varme	3	
+569	Øvrigt, Varme	3	
+57	Ventilation	2	
+571	Kanaler	3	
+572	Anlæg, køle- og varmeflader, vekslere	3	
+573	Kanal tilbehør	3	
+574	Ventilatorer	3	
+575	Ventilationsarmaturer	3	
+576	Tilslutninger til udstyr	3	
+577	Taghætter/gennemføringer	3	
+578	Kanalisolering	3	
+579	Øvrigt, Ventilation	3	
+58	Sprinkling	2	
+581	Mekanisk udstyr	3	
+582	Sprinklerdyser	3	
+583	Brandskabe	3	
+589	Øvrigt, Sprinkling	3	
+59	Tværgående komponenter, VVS	2	
+591	Metalrør i bygninger	3	
+592	Fleksible rør i bygninger	3	
+593	Hårde plastrør i bygninger	3	
+594	Statiske Ventiler	3	
+595	Dynamiske Ventiler	3	
+596	Moterdrevne rørtilbehør	3	
+597	Målere, filtre og øvrige	3	
+598	Rørisolering	3	
+599	Bæringer, udsparinger og øvrige	3	
+6	El- og mekaniske anlæg	1	
+60	El- og mekaniske anlæg, Terræn	2	
+601	Ledninger	3	
+602	Belysning	3	
+603	Installation for anlæg under terræn	3	
+604	Installation for anlæg på terræn	3	
+605	Trafikstyring	3	
+606	Føringsveje under terræn	3	
+609	Øvrigt, El- og mekaniske anlæg, terræn	3	
+61	Føringsveje	2	
+611	Bakker/stiger	3	
+612	Kanaler	3	
+613	Kabelrør	3	
+614	Fiberbakker	3	
+615	Bæringer, udsparinger og øvrige	3	
+616	Dåser og indstøbninger	3	
+619	Øvrigt, Føringsveje	3	
+62	Højspænding	2	
+621	Forsyning	3	
+622	Fordeling	3	
+623	Installationer for apparater og maskiner	3	
+629	Øvrigt, Højspænding	3	
+63	Lavspænding	2	
+631	Forsyninger - ekstern	3	
+632	Fordeling	3	
+633	Installationer for apparater og maskiner	3	
+634	Termiske anlæg	3	
+635	Installationer for belysning	3	
+636	Belysningsarmaturer	3	
+637	Kraftinstallationer	3	
+638	Vedvarende energi - Intern forsyning	3	
+639	Øvrigt, Lavspænding	3	
+64	Kommunikation og information	2	
+641	Kommunikation	3	
+642	Information	3	
+643	Audio, video og antenner	3	
+644	IT-infrastrukturer	3	
+649	Øvrigt, Kommunikation og information	3	
+65	Sikring	2	
+651	Adgangssikringer	3	
+652	Sikringsanlæg	3	
+653	Personsikringer	3	
+659	Øvrigt, Sikring	3	
+66	Bygningsautomation	2	
+661	Managementsystemer	3	
+662	Central tilstandsstyring	3	
+663	Descentral tilstandsstyring	3	
+664	Automatikkomponenter	3	
+669	Øvrigt, Bygningsautomation	3	
+67	Beskyttelse	2	
+671	Overspændingsbeskyttelse	3	
+672	Udligningsforbindelser	3	
+679	Øvrigt, Beskyttelse	3	
+68	Person-, materiale- og servicetransport	2	
+681	Persontransport	3	
+682	Gods- og materialetransport	3	
+683	Servicetransport	3	
+689	Øvrigt, Person-, materiale- og servicetransport	3	
+69	El- og mekaniske anlæg, øvrige	2	
+7	Inventar og teknisk udstyr	1	
+70	Inventar, terræn	2	
+701	Tekniske inventarenheder	3	
+702	Tavler, skilte og skærme	3	
+703	Opbevaring	3	
+704	Bordmøbler	3	
+705	Siddemøbler	3	
+706	Afskærmninger	3	
+707	Aktivites- og legeudstyr	3	
+709	Øvrigt, Inventar i terræn	3	
+71	Inventar, fastmonteret	2	
+711	Opbevaringsmøbler, fastmonterede	3	
+712	- verkant -	3	
+713	Siddemøbler, liggemøbler	3	
+714	Gardiner, persienner, skærmvægge, forhæng	3	
+715	Borde, bordplader	3	
+716	Skilte, tavler	3	
+717	Garniture	3	
+719	Øvrigt, Fastmonteret inventar	3	
+72	Inventar, løst	2	
+721	Opbevaringsmøbler, løse	3	
+722	- verkant -	3	
+723	Siddemøbler, liggemøbler	3	
+724	Skærmvægge, forhæng	3	
+725	Borde	3	
+726	Stativer	3	
+727	Måtter, tæpper, løbere	3	
+729	Øvrigt, Løst inventar	3	
+73	Inventar, tekniske-, IT- og av-inventarenheder	2	
+731	AV-udstyr	3	
+732	IT-udstyr	3	
+733	Belysning	3	
+734	Automater	3	
+735	Brandslukningsudstyr	3	
+736	Hårde hvidevarer	3	
+739	Øvrigt, Tekniske-, IT- og av-inventarenheder	3	
+79	Inventar, øvrige	2	
+8	Beplantning	1	
+80	Beplantning	2	
+801	Træer	3	
+802	Buske og hække	3	
+803	Muldlag	3	
+804	Bunddække og stauder	3	
+805	Græsarealer	3	
+806	Ekstensive beplantningssystemer	3	
+807	Intensive opbygninger på tage	3	
+809	Øvrigt, Beplantning	3	
+81	- verkant -	2	
+89	Beplantning, øvrige	2	
+9	Projektudstyr	1	
+91	Projektudstyr ARK	2	
+911	FRI	3	
+92	Projektudstyr KON	2	
+921	FRI	3	
+93	Projektudstyr VENT	2	
+931	FRI	3	
+94	Projektudstyr VVS	2	
+941	FRI	3	
+95	Projektudstyr EL	2	
+951	FRI	3	
+96	Projektudstyr LAND	2	
+961	FRI	3	
+97	Projektudstyr ENTREPRENØR/LEVERANDØR	2	
+971	FRI	3	
+99	Projektudstyr, øvrige	2	
+991	FRI	3	
