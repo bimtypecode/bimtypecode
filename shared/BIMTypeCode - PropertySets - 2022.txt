@@ -5,9 +5,9 @@
 #
 
 PropertySet:	BIMTypeCode	T	IfcElementType
-	BIMTypeName	Identifier
-	BIMTypeID	Identifier
-	BIMTypeCode	Identifier
-	BIMTypeCode-Description	Text
-	BIMTypeNumber	Identifier
-	BIMTypeID-Description	Text
+	BIMTypeName	Identifier	BIMTypeName
+	BIMTypeID	Identifier	BIMTypeID
+	BIMTypeCode	Identifier	BIMTypeCode
+	BIMTypeCode-Description	Text	BIMTypeCode-Description
+	BIMTypeNumber	Identifier	BIMTypeNumber
+	BIMTypeID-Description	Text	BIMTypeID-Description
