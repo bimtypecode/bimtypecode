@@ -1,8 +1,8 @@
 ﻿#
 # BIMTypeCode by BIM7AA & BIM Stockholm, PropertySet Definition File
 #
-# Important. This file is only a starting point. Adjust parameter references according to firm/project standards. Usage on own responsebility.
-#
+# Important. This file is only a starting point.
+# Adjust parameter references according to firm/project standards. Use at your own risk.
 
 PropertySet:	BIMTypeCode	T	IfcElementType
 	BIMTypeName	Identifier	BIMTypeName
