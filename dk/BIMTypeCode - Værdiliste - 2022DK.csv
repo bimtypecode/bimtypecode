@@ -1,4 +1,4 @@
-BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,IfcPredefinedType,CCSClassification,ForvaltningsKlassifikation
+BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType,CCSClassification,ForvaltningsKlassifikation
 0,Generiske objekter,,,,
 01,Generiske objekter ARK,,,,
 011,FRI,,,,
@@ -34,29 +34,29 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,IfcPredefinedType,CCSClassific
 127,- verkant -,,,,
 129,"Øvrigt, Fundamenter",,,,
 13,Terrændæk,,,,
-131,Terrændæk,,,,
+131,Terrændæk,IfcCoveringType,INSULATION,[L]BC,bk
 139,"Øvrigt, Terrændæk",,,,
 19,"Bygningsbasis, øvrige",,,,
-191,Kanaler under terrændæk,,,,
-192,Gruber og sumpe,,,,
+191,Kanaler under terrændæk,IfcDistributionChamberElementType,USERDEFINED,[B]EBC,bk.kan
+192,Gruber og sumpe,IfcDistributionChamberElementType,SUMP,L]XTC,bk
 2,Primære bygningsdele,,,,
 20,"Primære bygningsdele, terræn",,,,
-201,Hegnsmure,,,,
-202,Støttemure,,,,
-203,"Teknikgange ",,,,
-204,"Fodgængerbroer, viadukter m.m.",,,,
-205,Trapper i terræn,,,,
-206,Ramper i terræn,,,,
+201,Hegnsmure,IfcWallType,SOLIDWALL,[L]AD,tk.heg
+202,Støttemure,IfcWallType,SHEAR,[L]AD,tk.væg
+203,"Teknikgange ",,,[B]EBC,
+204,"Fodgængerbroer, viadukter m.m.",,,[E]CBA,
+205,Trapper i terræn,IfcStairType,,,tk.tra
+206,Ramper i terræn,IfcRampType,,,
 209,"Øvrigt, Primære bygningsdele i terræn",,,,
-21,Ydervægge,,,,
-211,Udvendige vægelementer,,,,
-212,Udvendige pladsstøbte vægge,,,,
-213,Udvendige opmurede vægge,,,,
-214,Udvendige skeletkonstruerede vægge,,,,
-215,Udvendige skeletkonstruerede vægskørter,,,,
-216,Udvendige facadesystemer,,,,
-217,Udvendige isoleringsvægsystemer,,,,
-218,Udvendige lyskasser,,,,
+21,Ydervægge,IfcBuildingElementType,,,
+211,Udvendige vægelementer,IfcWallType,SOLIDWALL,[L]ULM,bk.væg
+212,Udvendige pladsstøbte vægge,IfcWallType,SOLIDWALL,[L]BD,bk.væg
+213,Udvendige opmurede vægge,IfcWallType,STANDARD,[L]BD,bk.væg
+214,Udvendige skeletkonstruerede vægge,IfcWallType,PARTITIONING,[L]AD,bk.væg
+215,Udvendige skeletkonstruerede vægskørter,IfcWallType,PARTITIONING,[L]AD,bk.væg
+216,Udvendige facadesystemer,IfcCurtainWallType,USERDEFINED,[L]AD,bk.væg
+217,Udvendige isoleringsvægsystemer,IfcCoveringType,INSULATION,[L]AD,bk.væg
+218,Udvendige lyskasser,IfcElementAssemblyType,USERDEFINED,[L]AD,bk.lys
 219,"Øvrigt, Ydervægge",,,,
 22,Indervægge,,,,
 221,Indvendige vægelementer,,,,
