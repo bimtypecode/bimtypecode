@@ -385,16 +385,16 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 736,Hårde hvidevarer,,
 739,"Øvrigt, Tekniske-, IT- og av-inventarenheder",,
 79,"Inventar, øvrige",,
-8,Beplantning,,
-80,Beplantning,,
-801,Træer,,
-802,Buske og hække,,
-803,Muldlag,,
-804,Bunddække og stauder,,
-805,Græsarealer,,
-806,Ekstensive beplantningssystemer,,
-807,Intensive opbygninger på tage,,
-809,"Øvrigt, Beplantning",,
+8,Beplantning,IfcGeographicElementType,NOTDEFINED
+80,Beplantning,IfcGeographicElementType,NOTDEFINED
+801,Træer,IfcGeographicElementType,USERDEFINED
+802,Buske og hække,IfcGeographicElementType,USERDEFINED
+803,Muldlag,IfcGeographicElementType,TERRAIN
+804,Bunddække og stauder,IfcGeographicElementType,USERDEFINED
+805,Græsarealer,IfcGeographicElementType,USERDEFINED
+806,Ekstensive beplantningssystemer,IfcGeographicElementType,USERDEFINED
+807,Intensive opbygninger på tage,IfcGeographicElementType,USERDEFINED
+809,"Øvrigt, Beplantning",IfcGeographicElementType,USERDEFINED
 81,- verkant -,,
 89,"Beplantning, øvrige",,
 9,Projektudstyr,,
