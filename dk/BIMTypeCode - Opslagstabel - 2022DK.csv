@@ -396,7 +396,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 807,Intensive opbygninger på tage,IfcGeographicElementType,USERDEFINED
 809,"Øvrigt, Beplantning",IfcGeographicElementType,USERDEFINED
 81,- verkant -,,
-89,"Beplantning, øvrige",,
+89,"Beplantning, øvrige",IfcGeographicElementType,
 9,Projektudstyr,,
 91,Projektudstyr ARK,,
 911,FRI,,
