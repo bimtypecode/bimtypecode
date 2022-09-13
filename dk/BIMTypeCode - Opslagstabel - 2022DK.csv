@@ -24,7 +24,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 104,- verkant -,,
 105,"Pæle ",IfcPileType,
 109,"Øvrigt, Bygningsbasis i terræn",,
-12,Fundamenter,IfcBuildingElementType,
+12,Fundamenter,,
 121,Liniefundamenter,IfcFootingType,STRIP_FOOTING
 122,Punktfundamenter,IfcFootingType,PAD_FOOTING
 123,Pladefundamenter,IfcSlabType,BASESLAB
@@ -39,7 +39,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 19,"Bygningsbasis, øvrige",,
 191,Kanaler under terrændæk,IfcDistributionChamberElementType,USERDEFINED
 192,Gruber og sumpe,IfcDistributionChamberElementType,SUMP
-2,Primære bygningsdele,IfcBuildingElementType,
+2,Primære bygningsdele,,
 20,"Primære bygningsdele, terræn",IfcBuildingElementType,
 201,Hegnsmure,IfcWallType,SOLIDWALL
 202,Støttemure,IfcWallType,SHEAR
@@ -48,7 +48,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 205,Trapper i terræn,IfcStairType,
 206,Ramper i terræn,IfcRampType,
 209,"Øvrigt, Primære bygningsdele i terræn",,
-21,Ydervægge,IfcBuildingElementType,
+21,Ydervægge,,
 211,Udvendige vægelementer,IfcWallType,SOLIDWALL
 212,Udvendige pladsstøbte vægge,IfcWallType,SOLIDWALL
 213,Udvendige opmurede vægge,IfcWallType,STANDARD
@@ -59,49 +59,49 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 218,Udvendige lyskasser,IfcElementAssemblyType,USERDEFINED
 219,"Øvrigt, Ydervægge",,
 22,Indervægge,,
-221,Indvendige vægelementer,,
-222,Indvendige pladsstøbte vægge,,
-223,Indvendige opmurede vægge,,
-224,Indvendige skeletkonstruerede vægge,,
-225,Indvendige skeletkonstruerede vægskørter,,
-226,Indvendige glasvægsystemer,,
+221,Indvendige vægelementer,IfcWallType,SOLIDWALL
+222,Indvendige pladsstøbte vægge,IfcWallType,SOLIDWALL
+223,Indvendige opmurede vægge,IfcWallType,STANDARD
+224,Indvendige skeletkonstruerede vægge,IfcWallType,PARTITIONING
+225,Indvendige skeletkonstruerede vægskørter,IfcWallType,PARTITIONING
+226,Indvendige glasvægsystemer,IfcCurtainWallType,USERDEFINED
 229,"Øvrigt, Indervægge",,
-23,Dæk,,
+23,Dæk,IfcSlabType,NOTDEFINED
 231,Dækelementer,,
-232,Pladsstøbte dæk,,
-233,Skeletkonstruerede dæk,,
-234,Afretningslag,,
-239,"Øvrigt, Dæk",,
+232,Pladsstøbte dæk,IfcSlabType,FLOOR
+233,Skeletkonstruerede dæk,IfcSlabType,FLOOR
+234,Afretningslag,IfcSlabType,USERDEFINED
+239,"Øvrigt, Dæk",IfcSlabType,
 24,Trapper og ramper,,
-241,Elementtrapper,,
-242,Pladsstøbte trapper,,
-243,Sammensatte trapper,,
-244,Element ramper,,
-245,Pladsstøbte ramper,,
-246,Sammensatte ramper,,
-247,"Faste stiger, lejdere og trin",,
+241,Elementtrapper,IfcStairType,
+242,Pladsstøbte trapper,IfcStairType,
+243,Sammensatte trapper,IfcStairType,
+244,Element ramper,IfcRampType,
+245,Pladsstøbte ramper,IfcRampType,
+246,Sammensatte ramper,IfcRampType,
+247,"Faste stiger, lejdere og trin",IfcStairType,USERDEFINED
 249,"Øvrigt, Trapper og ramper",,
 25,Bjælker og søjler,,
-251,Elementbjælker,,
-252,Pladsstøbte bjælker,,
-253,Stålbjælker,,
+251,Elementbjælker,IfcBeamType,
+252,Pladsstøbte bjælker,IfcBeamType,
+253,Stålbjælker,IfcBeamType,
 254,- verkant -,,
-255,Elementsøjler,,
-256,Pladsstøbte søjler,,
-257,Stålsøjler,,
+255,Elementsøjler,IfcColumnType,
+256,Pladsstøbte søjler,IfcColumnType,
+257,Stålsøjler,IfcColumnType,
 259,"Øvrigt, Bjælker og søjler",,
 26,Altaner og altangange,,
 261,Elementaltaner og altangange,,
 262,Pladsstøbte altaner og altangange,,
-263,"Sammensatte altaner, altangange",,
+263,"Sammensatte altaner, altangange",IfcElementAssemblyType,USERDEFINED
 269,"Øvrigt, Altaner og altangange",,
 27,Tage,,
-271,Spærtage,,
-272,Tagkassetter,,
-273,Varme tage,,
-274,Glastagssystemer,,
-275,Mobile tage,,
-276,Baldakiner og overdækninger,,
+271,Spærtage,IfcRoofType,
+272,Tagkassetter,IfcRoofType,
+273,Varme tage,IfcRoofType,
+274,Glastagssystemer,IfcRoofType,
+275,Mobile tage,IfcRoofType,USERDEFINED
+276,Baldakiner og overdækninger,IfcShadingDeviceType,
 279,"Øvrigt, Tagværker",,
 29,"Primære bygningsdele, øvrige",,
 3,Kompletterende bygningsdele,,
@@ -352,21 +352,15 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 70,"Inventar, terræn",,
 701,Tekniske inventarenheder,,
 702,"Tavler, skilte og skærme",,
-703,Opbevaring,,
-704,Bordmøbler,,
 703,Opbevaring,IfcFurnitureType,
 704,Bordmøbler,IfcFurnitureType,TABLE
 705,Siddemøbler,IfcFurnitureType,
 706,Afskærmninger,IfcFurnitureType,
 707,Aktivites- og legeudstyr,IfcGeographicElementType,USERDEFINED
 709,"Øvrigt, Inventar i terræn",,
-71,"Inventar, fastmonteret",,
-711,"Opbevaringsmøbler, fastmonterede",,
 71,"Inventar, fastmonteret",IfcFurnitureType,NOTDEFINED
 711,"Opbevaringsmøbler, fastmonterede",IfcFurnitureType,
 712,- verkant -,,
-717,Garniture,,
-719,"Øvrigt, Fastmonteret inventar",,
 713,"Siddemøbler, liggemøbler",IfcFurnitureType,
 714,"Gardiner, persienner, skærmvægge, forhæng",IfcFurnitureType,USERDEFINED
 715,"Borde, bordplader",IfcFurnitureType,
