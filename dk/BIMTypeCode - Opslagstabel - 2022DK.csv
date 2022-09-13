@@ -354,35 +354,41 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 702,"Tavler, skilte og skærme",,
 703,Opbevaring,,
 704,Bordmøbler,,
-705,Siddemøbler,,
-706,Afskærmninger,,
-707,Aktivites- og legeudstyr,,
+703,Opbevaring,IfcFurnitureType,
+704,Bordmøbler,IfcFurnitureType,TABLE
+705,Siddemøbler,IfcFurnitureType,
+706,Afskærmninger,IfcFurnitureType,
+707,Aktivites- og legeudstyr,IfcGeographicElementType,USERDEFINED
 709,"Øvrigt, Inventar i terræn",,
 71,"Inventar, fastmonteret",,
 711,"Opbevaringsmøbler, fastmonterede",,
+71,"Inventar, fastmonteret",IfcFurnitureType,NOTDEFINED
+711,"Opbevaringsmøbler, fastmonterede",IfcFurnitureType,
 712,- verkant -,,
-713,"Siddemøbler, liggemøbler",,
-714,"Gardiner, persienner, skærmvægge, forhæng",,
-715,"Borde, bordplader",,
-716,"Skilte, tavler",,
 717,Garniture,,
 719,"Øvrigt, Fastmonteret inventar",,
-72,"Inventar, løst",,
-721,"Opbevaringsmøbler, løse",,
+713,"Siddemøbler, liggemøbler",IfcFurnitureType,
+714,"Gardiner, persienner, skærmvægge, forhæng",IfcFurnitureType,USERDEFINED
+715,"Borde, bordplader",IfcFurnitureType,
+716,"Skilte, tavler",IfcFurnitureType,USERDEFINED
+717,Garniture,IfcFurnitureType,USERDEFINED
+719,"Øvrigt, Fastmonteret inventar",IfcFurnitureType,
+72,"Inventar, løst",IfcFurnitureType,NOTDEFINED
+721,"Opbevaringsmøbler, løse",IfcFurnitureType,
 722,- verkant -,,
-723,"Siddemøbler, liggemøbler",,
-724,"Skærmvægge, forhæng",,
-725,Borde,,
-726,Stativer,,
-727,"Måtter, tæpper, løbere",,
-729,"Øvrigt, Løst inventar",,
+723,"Siddemøbler, liggemøbler",IfcFurnitureType,
+724,"Skærmvægge, forhæng",IfcFurnitureType,USERDEFINED
+725,Borde,IfcFurnitureType,
+726,Stativer,IfcFurnitureType,USERDEFINED
+727,"Måtter, tæpper, løbere",IfcFurnitureType,USERDEFINED
+729,"Øvrigt, Løst inventar",IfcFurnitureType,USERDEFINED
 73,"Inventar, tekniske-, IT- og av-inventarenheder",,
-731,AV-udstyr,,
-732,IT-udstyr,,
-733,Belysning,,
-734,Automater,,
-735,Brandslukningsudstyr,,
-736,Hårde hvidevarer,,
+731,AV-udstyr,IfcAudioVisualApplianceType,
+732,IT-udstyr,IfcCommunicationsApplianceType,
+733,Belysning,IfcLightFixtureType,
+734,Automater,IfcElectricApplianceType,VENDINGMACHINE
+735,Brandslukningsudstyr,IfcFurnitureType,USERDEFINED
+736,Hårde hvidevarer,IfcElectricApplianceType,
 739,"Øvrigt, Tekniske-, IT- og av-inventarenheder",,
 79,"Inventar, øvrige",,
 8,Beplantning,IfcGeographicElementType,NOTDEFINED
