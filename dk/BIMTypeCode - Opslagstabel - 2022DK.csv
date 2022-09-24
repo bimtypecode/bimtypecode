@@ -40,7 +40,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 191,Kanaler under terrændæk,IfcDistributionChamberElementType,USERDEFINED
 192,Gruber og sumpe,IfcDistributionChamberElementType,SUMP
 2,Primære bygningsdele,,
-20,"Primære bygningsdele, terræn",IfcBuildingElementType,
+20,"Primære bygningsdele, terræn",,
 201,Hegnsmure,IfcWallType,SOLIDWALL
 202,Støttemure,IfcWallType,SHEAR
 203,"Teknikgange ",,
@@ -101,56 +101,56 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 273,Varme tage,IfcRoofType,
 274,Glastagssystemer,IfcRoofType,
 275,Mobile tage,IfcRoofType,USERDEFINED
-276,Baldakiner og overdækninger,IfcShadingDeviceType,
+276,Baldakiner og overdækninger,IfcShadingDeviceType,AWNING
 279,"Øvrigt, Tagværker",,
 29,"Primære bygningsdele, øvrige",,
 3,Kompletterende bygningsdele,,
 30,"Kompletterende bygningsdele, terræn",,
 301,"Hegn, afskærmninger",,
-302,"Gelændere, rækværker og håndlister i terræn",,
+302,"Gelændere, rækværker og håndlister i terræn",IfcRailingType,HANDRAIL
 303,Overgange i terræn,,
 304,Kantbegrænsninger,,
 305,Konstruerede elementer,,
 309,Øvrigt terræn komplettering,,
 31,"Ydervægge, komplettering",,
-311,"Udvendige døre ",,
-312,Udvendige vinduer,,
-313,"Udvendige døre, facadesystemer",,
-314,"Udvendige vinduesopluk, facadesystemer",,
+311,"Udvendige døre ",IfcDoorType,DOOR
+312,Udvendige vinduer,IfcWindowType,WINDOW
+313,"Udvendige døre, facadesystemer",IfcDoorType,DOOR
+314,"Udvendige vinduesopluk, facadesystemer",IfcWindowType,WINDOW
 315,"Udvendige ruder, blændfelter og karmprofiler, facadesystemer",,
-316,Udvendige porte og karusseldøre,,
+316,Udvendige porte og karusseldøre,IfcDoorType,GATE
 317,Udvendige afskærmninger,,
 319,"Øvrigt, Ydervægskompletteringer",,
 32,"Indervægge, komplettering",,
-321,Indvendige døre,,
-322,"Indvendige vinduer, luger og lemme",,
-323,"Indvendige døre, glasvægsystem",,
-324,"Indvendige vinduesopluk, glasvægsystemer",,
+321,Indvendige døre,IfcDoorType,DOOR
+322,"Indvendige vinduer, luger og lemme",IfcWindowType,WINDOW
+323,"Indvendige døre, glasvægsystem",IfcDoorType,DOOR
+324,"Indvendige vinduesopluk, glasvægsystemer",IfcWindowType,WINDOW
 325,"Indvendige ruder, blændfelter og karmprofiler,glasvægsystemer",,
-326,Indvendige porte og karruseldøre,,
-327,Bevægelige indervægge,,
+326,Indvendige porte og karruseldøre,IfcDoorType,GATE
+327,Bevægelige indervægge,IfcWallType," MOVABLE"
 328,"Indvendige, afskærmning",,
 329,"Øvrigt, Indervægskompletteringer",,
 33,"Dæk og gulve, komplettering",,
-331,Opbyggede gulve,,
-332,Svømmende gulve,,
-333,"Riste, måtterammer",,
-334,Støbte- og flydende gulve,,
+331,Opbyggede gulve,IfcCoveringType,FLOORING
+332,Svømmende gulve,IfcCoveringType,FLOORING
+333,"Riste, måtterammer",IfcCoveringType,USERDEFINED
+334,Støbte- og flydende gulve,IfcCoveringType,FLOORING
 335,- verkant -,,
 336,- verkant -,,
-337,Gulvlemme,,
-338,"Gelændere, rækværker og håndlister",,
+337,Gulvlemme,IfcDoorType,TRAPDOOR
+338,"Gelændere, rækværker og håndlister",IfcRailingType,HANDRAIL
 339,"Øvrigt, Dækkompletteringer",,
 34,"Trapper og ramper, komplettering",,
-341,"Gelændere, rækværker og håndlister",,
+341,"Gelændere, rækværker og håndlister",IfcRailingType,GUARDRAIL
 342,- verkant -,,
 343,- verkant -,,
 349,"Øvrigt, Trappekompletteringer",,
 35,"Lofter, komplettering",,
-351,Indvendige nedhængte lofter,,
-352,Udvendige nedhængte lofter,,
-353,Indvendige påbyggede lofter,,
-354,Udvendige påbyggede lofter,,
+351,Indvendige nedhængte lofter,IfcCoveringType,CEILING
+352,Udvendige nedhængte lofter,IfcCoveringType,CEILING
+353,Indvendige påbyggede lofter,IfcCoveringType,CEILING
+354,Udvendige påbyggede lofter,IfcCoveringType,CEILING
 355,Indvendige loftskørter,,
 356,Udvendige loftskørter,,
 357,- verkant -,,
@@ -159,10 +159,10 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 361,"Rækværker, brystninger",,
 369,"Øvrigt, Altaner og altangange kompletteringer",,
 37,"Tage, komplettering",,
-371,Kviste,,
-372,"Ovenlys, røg- og taglemme",,
+371,Kviste,IfcRootType,
+372,"Ovenlys, røg- og taglemme",IfcWindowType,WINDOW
 373,Solskærme til ovenlys,,
-374,Sikring,,
+374,Sikring,IfcRailingType,BALUSTRADE
 375,- verkant -,,
 376,Inddækninger,,
 377,Belægninger på færdige tagflader,,
@@ -170,47 +170,47 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 39,"Kompletterende bygningsdele bygning, øvrige",,
 4,Overfladebygningsdele,,
 40,"Overflader, terræn",,
-401,Asfalt belægninger,,
-402,Betonstøbte belægninger,,
-403,Gummibelægninger,,
-404,Flise -og stenbelægninger,,
-405,Skærver og grus,,
-406,Brolægning,,
+401,Asfalt belægninger,IfcCoveringType,
+402,Betonstøbte belægninger,IfcCoveringType,
+403,Gummibelægninger,IfcCoveringType,
+404,Flise -og stenbelægninger,IfcCoveringType,
+405,Skærver og grus,IfcCoveringType,
+406,Brolægning,IfcCoveringType,
 407,Afstribninger og markeringer,,
 409,"Øvrigt, Belægninger",,
 41,Udvendige vægoverflader,,
 411,- verkant -,,
-412,"Beklædninger, påmurede, pudsede",,
-413,"Beklædninger, monterede",,
+412,"Beklædninger, påmurede, pudsede",IfcCoveringType,CLADDING
+413,"Beklædninger, monterede",IfcCoveringType,CLADDING
 419,"Øvrigt, Udvendige vægoverflader",,
 42,Indvendige vægoverflader,,
 421,- verkant -,,
-422,"Beklædninger, påmurede, pudsede",,
-423,"Beklædninger, monterede",,
+422,"Beklædninger, påmurede, pudsede",IfcCoveringType,CLADDING
+423,"Beklædninger, monterede",IfcCoveringType,CLADDING
 429,"Øvrigt, Indvendige vægoverflader",,
 43,"Dæk og gulve, overflader",,
 431,- verkant -,,
-432,"Beklædninger, påmurede og støbte",,
-433,"Beklædninger, monterede",,
+432,"Beklædninger, påmurede og støbte",IfcCoveringType,FLOORING
+433,"Beklædninger, monterede",IfcCoveringType,FLOORING
 439,"Øvrigt, Dæk og gulvoverflader",,
 44,"Trapper og ramper, overflader",,
 441,- verkant -,,
-442,"Beklædninger, påmurede",,
-443,"Beklædninger, monterede",,
+442,"Beklædninger, påmurede",IfcCoveringType,USERDEFINED
+443,"Beklædninger, monterede",IfcCoveringType,USERDEFINED
 449,"Øvrigt, Trapper og ramper, overflader",,
 45,"Lofter, overflader",,
 451,- verkant -,,
-452,"Beklædninger, påmurede",,
-453,"Beklædninger, monterede",,
+452,"Beklædninger, påmurede",IfcCoveringType,CEILING
+453,"Beklædninger, monterede",IfcCoveringType,CEILING
 459,"Øvrigt, Loftoverflader",,
 46,"Altaner, overflader",,
 461,- verkant -,,
-462,"Beklædninger, påmurede",,
-463,"Beklædninger, monterede",,
+462,"Beklædninger, påmurede",IfcCoveringType,
+463,"Beklædninger, monterede",IfcCoveringType,
 469,"Øvrigt, Altanoverflader",,
 47,"Tage, overflader",,
 471,- verkant -,,
-472,Tagdækninger,,
+472,Tagdækninger,IfcCoveringType,ROOFING
 479,"Øvrigt, Tagoverflader",,
 49,"Overflader bygning, øvrige",,
 5,VVS- og ventilationsanlæg,,
@@ -219,8 +219,8 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 502,Fleksible plastrør i jord,,
 503,Hårde plastrør i jord,,
 504,Brønde,,
-505,Riste/Linjedræn,,
-506,"Udskiller (Olie, fedt, benzin mv.)",,
+505,Riste/Linjedræn,IfcWasteTerminalType,
+506,"Udskiller (Olie, fedt, benzin mv.)",IfcInterceptorType,
 507,Sanitetstilslutninger,,
 508,Tilbehør,,
 509,"Øvrigt, VVS-anlæg terræn",,
@@ -228,21 +228,21 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 511,Affalds- og logistiksystemer,,
 519,"Øvrigt, Logistik",,
 52,Afløb og sanitet,,
-521,"Spildevand, tilslutninger",,
-522,"Toiletter, tilslutninger",,
-523,"Vaske, tilslutninger",,
-524,"Vand- og afløb, tilslutninger",,
-525,"Vand- og afløb, tilslutninger til teknisk udstyr",,
-526,"Vand- og afløb, tilslutninger til lab. udstyr",,
-527,"Regnvand, tilslutninger",,
+521,"Spildevand, tilslutninger",IfcPipeFittingType,CONNECTOR
+522,"Toiletter, tilslutninger",IfcPipeFittingType,CONNECTOR
+523,"Vaske, tilslutninger",IfcPipeFittingType,CONNECTOR
+524,"Vand- og afløb, tilslutninger",IfcPipeFittingType,CONNECTOR
+525,"Vand- og afløb, tilslutninger til teknisk udstyr",IfcPipeFittingType,CONNECTOR
+526,"Vand- og afløb, tilslutninger til lab. udstyr",IfcPipeFittingType,CONNECTOR
+527,"Regnvand, tilslutninger",IfcPipeFittingType,CONNECTOR
 528,"Afløbs-, Sanitets- og Regnvandsgenstande",,
 529,"Øvrigt, Afløb og sanitet, tilslutninger",,
 53,"Vand (koldt/varmt vand, behandlet vand)",,
 531,Mekanisk udstyr,,
-532,Vandtilslutninger,,
+532,Vandtilslutninger,IfcPipeFittingType,CONNECTOR
 533,Vandbehandlingsanlæg,,
-534,"Brandslukning, tilslutninger",,
-535,"Målere, Vand",,
+534,"Brandslukning, tilslutninger",IfcPipeFittingType,CONNECTOR
+535,"Målere, Vand",IfcFlowMeterType,WATERMETER
 536,"Armaturer-, Vandgenstande",,
 539,"Øvrigt, Vand",,
 54,"Luftarter (gas, trykluft, vakuum, damp)",,
@@ -250,7 +250,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 542,Luftartsudtag,,
 543,Luftartsproducerende anlæg,,
 545,Tilbehør,,
-546,"Målere, Luftarter",,
+546,"Målere, Luftarter",IfcFlowMeterType,GASMETER
 549,"Øvrigt, Luftarter",,
 55,Køling,,
 551,Mekanisk udstyr,,
@@ -268,31 +268,31 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 571,Kanaler,,
 572,"Anlæg, køle- og varmeflader, vekslere",,
 573,Kanal tilbehør,,
-574,Ventilatorer,,
-575,Ventilationsarmaturer,,
-576,Tilslutninger til udstyr,,
+574,Ventilatorer,IfcFanType,
+575,Ventilationsarmaturer,IfcAirTerminalType,
+576,Tilslutninger til udstyr,IfcDuctFittingType,CONNECTOR
 577,Taghætter/gennemføringer,,
-578,Kanalisolering,,
+578,Kanalisolering,IfcCoveringType,INSUALTION
 579,"Øvrigt, Ventilation",,
 58,Sprinkling,,
 581,Mekanisk udstyr,,
-582,Sprinklerdyser,,
-583,Brandskabe,,
+582,Sprinklerdyser,IfcFireSuppressionTerminalType,SPRINKLER
+583,Brandskabe,IfcFireSuppressionTerminalType,HOSEREEL
 589,"Øvrigt, Sprinkling",,
 59,"Tværgående komponenter, VVS",,
 591,Metalrør i bygninger,,
 592,Fleksible rør i bygninger,,
 593,Hårde plastrør i bygninger,,
-594,Statiske Ventiler,,
-595,Dynamiske Ventiler,,
+594,Statiske Ventiler,IfcValveType,
+595,Dynamiske Ventiler,IfcValveType,
 596,Moterdrevne rørtilbehør,,
 597,"Målere, filtre og øvrige",,
-598,Rørisolering,,
+598,Rørisolering,IfcCoveringType,INSULATION
 599,"Bæringer, udsparinger og øvrige",,
 6,El- og mekaniske anlæg,,
 60,"El- og mekaniske anlæg, Terræn",,
-601,Ledninger,,
-602,Belysning,,
+601,Ledninger,IfcCableSegmentType,
+602,Belysning,IfcLightFixtureType,
 603,Installation for anlæg under terræn,,
 604,Installation for anlæg på terræn,,
 605,Trafikstyring,,
@@ -301,7 +301,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 61,Føringsveje,,
 611,Bakker/stiger,,
 612,Kanaler,,
-613,Kabelrør,,
+613,Kabelrør,IfcCableCarrierSegmentType,CONDUITSEGMENT
 614,Fiberbakker,,
 615,"Bæringer, udsparinger og øvrige",,
 616,Dåser og indstøbninger,,
@@ -317,7 +317,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 633,Installationer for apparater og maskiner,,
 634,Termiske anlæg,,
 635,Installationer for belysning,,
-636,Belysningsarmaturer,,
+636,Belysningsarmaturer,IfcLightFixtureType,
 637,Kraftinstallationer,,
 638,Vedvarende energi - Intern forsyning,,
 639,"Øvrigt, Lavspænding",,
