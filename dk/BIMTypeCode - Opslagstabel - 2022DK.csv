@@ -218,10 +218,10 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 501,Metal- og betonrør i jord,,
 502,Fleksible plastrør i jord,,
 503,Hårde plastrør i jord,,
-504,Brønde,,
+504,Brønde,IfcDistributionChamberElementType,
 505,Riste/Linjedræn,IfcWasteTerminalType,
 506,"Udskiller (Olie, fedt, benzin mv.)",IfcInterceptorType,
-507,Sanitetstilslutninger,,
+507,Sanitetstilslutninger,IfcPipeFittingType,CONNECTOR
 508,Tilbehør,,
 509,"Øvrigt, VVS-anlæg terræn",,
 51,Logistik,,
@@ -247,7 +247,7 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 539,"Øvrigt, Vand",,
 54,"Luftarter (gas, trykluft, vakuum, damp)",,
 541,Mekanisk udstyr,,
-542,Luftartsudtag,,
+542,Luftartsudtag,IfcPipeFittingType,CONNECTOR
 543,Luftartsproducerende anlæg,,
 545,Tilbehør,,
 546,"Målere, Luftarter",IfcFlowMeterType,GASMETER
@@ -256,13 +256,13 @@ BIMTypeCode,BIMTypeCode-Description,IfcTypeObject,PredefinedType
 551,Mekanisk udstyr,,
 552,Kølegivere,,
 553,Køleproducerende anlæg,,
-554,"Målere, Køling",,
+554,"Målere, Køling",IfcFlowMeterType,ENERGYMETER
 559,"Øvrigt, Køling",,
 56,Varme,,
 561,Mekanisk udstyr,,
-562,Varmegivere,,
+562,Varmegivere,IfcSpaceHeaterType,
 563,Varmeproducerende anlæg,,
-564,"Målere, Varme",,
+564,"Målere, Varme",IfcFlowMeterType,ENERGYMETER
 569,"Øvrigt, Varme",,
 57,Ventilation,,
 571,Kanaler,,
