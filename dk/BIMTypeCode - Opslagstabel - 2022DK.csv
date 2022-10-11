@@ -43,7 +43,7 @@ BIMTypeCode;BIMTypeCode-Description;IfcTypeObject;PredefinedType;IfcGroup;IfcGro
 20;Primære bygningsdele, terræn;;;;;;;;;
 201;Hegnsmure;IfcWallType;SOLIDWALL;;;;;;;
 202;Støttemure;IfcWallType;SHEAR;;;;;;;
-203;"Teknikgange ";;;;;;;;;
+203;Teknikgange;;;;;;;;;
 204;Fodgængerbroer, viadukter m.m.;;;;;;;;;
 205;Trapper i terræn;IfcStairType;;;;;;;;
 206;Ramper i terræn;IfcRampType;;;;;;;;
@@ -113,7 +113,7 @@ BIMTypeCode;BIMTypeCode-Description;IfcTypeObject;PredefinedType;IfcGroup;IfcGro
 305;Konstruerede elementer;;;;;;;;;
 309;Øvrigt terræn komplettering;;;;;;;;;
 31;Ydervægge, komplettering;;;;;;;;;
-311;"Udvendige døre ";IfcDoorType;DOOR;;;;;;;
+311;Udvendige døre;IfcDoorType;DOOR;;;;;;;
 312;Udvendige vinduer;IfcWindowType;WINDOW;;;;;;;
 313;Udvendige døre, facadesystemer;IfcDoorType;DOOR;;;;;;;
 314;Udvendige vinduesopluk, facadesystemer;IfcWindowType;WINDOW;;;;;;;
