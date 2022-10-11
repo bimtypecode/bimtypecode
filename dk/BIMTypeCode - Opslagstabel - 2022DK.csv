@@ -14,7 +14,7 @@ BIMTypeCode;BIMTypeCode-Description;IfcTypeObject;PredefinedType;IfcGroup;IfcGro
 061;FRI;;;;;;
 07;Generiske objekter Entreprenør/Leverandør;;;;;;
 071;FRI;;;;;;
-09;"Generiske objekter, øvrigt";;;;;;
+09;Generiske objekter, øvrigt;;;;;;
 091;FRI;;;;;;
 1;Bygningsbasis;;;;;;
 10;Terræn;;;;;;
