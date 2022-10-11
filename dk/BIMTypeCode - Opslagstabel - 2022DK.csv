@@ -1,416 +1,416 @@
-BIMTypeCode,BIMTypeCode-Description,IFC-IfcTypeObject,IFC-PredefinedType,CCS,BC/SfB,C213,FVK,LCAbygg
-0,Generiske objekter,,,,,,,
-01,Generiske objekter ARK,,,,,,,
-011,FRI,,,,,,,
-02,Generiske objekter KON,,,,,,,
-021,FRI,,,,,,,
-03,Generiske objekter VENT,,,,,,,
-031,FRI,,,,,,,
-04,Generiske objekter VVS,,,,,,,
-041,FRI,,,,,,,
-05,Generiske objekter EL,,,,,,,
-051,FRI,,,,,,,
-06,Generiske objekter LAND,,,,,,,
-061,FRI,,,,,,,
-07,Generiske objekter Entreprenør/Leverandør,,,,,,,
-071,FRI,,,,,,,
-09,"Generiske objekter, øvrigt",,,,,,,
-091,FRI,,,,,,,
-1,Bygningsbasis,,,,,,,
-10,Terræn,,,,,,,
-101,Forberedt grund,,,,,,,
-102,Byggegrube inkl. afstivning,,,,,,,
-103,Spunsvægge,IfcPileType,,,,,,
-104,- verkant -,,,,,,,
-105,"Pæle ",IfcPileType,,,,,,
-109,"Øvrigt, Bygningsbasis i terræn",,,,,,,
-12,Fundamenter,,,,,,,
-121,Liniefundamenter,IfcFootingType,STRIP_FOOTING,,,,,
-122,Punktfundamenter,IfcFootingType,PAD_FOOTING,,,,,
-123,Pladefundamenter,IfcSlabType,BASESLAB,,,,,
-124,Opmurede fundamenter,IfcFootingType,USERDEFINED,,,,,
-125,Maskinfundamenter,IfcFootingType,USERDEFINED,,,,,
-126,Pælefundamenter og brøndfundamenter,IfcFootingType,PILE_CAP,,,,,
-127,- verkant -,,,,,,,
-129,"Øvrigt, Fundamenter",,,,,,,
-13,Terrændæk,IfcCoveringType,NOTDEFINED,,,,,
-131,Terrændæk,IfcCoveringType,INSULATION,,,,,
-139,"Øvrigt, Terrændæk",IfcCoveringType,USERDEFINED,,,,,
-19,"Bygningsbasis, øvrige",,,,,,,
-191,Kanaler under terrændæk,IfcDistributionChamberElementType,USERDEFINED,,,,,
-192,Gruber og sumpe,IfcDistributionChamberElementType,SUMP,,,,,
-2,Primære bygningsdele,,,,,,,
-20,"Primære bygningsdele, terræn",,,,,,,
-201,Hegnsmure,IfcWallType,SOLIDWALL,,,,,
-202,Støttemure,IfcWallType,SHEAR,,,,,
-203,"Teknikgange ",,,,,,,
-204,"Fodgængerbroer, viadukter m.m.",,,,,,,
-205,Trapper i terræn,IfcStairType,,,,,,
-206,Ramper i terræn,IfcRampType,,,,,,
-209,"Øvrigt, Primære bygningsdele i terræn",,,,,,,
-21,Ydervægge,,,,,,,
-211,Udvendige vægelementer,IfcWallType,SOLIDWALL,,,,,
-212,Udvendige pladsstøbte vægge,IfcWallType,SOLIDWALL,,,,,
-213,Udvendige opmurede vægge,IfcWallType,STANDARD,,,,,
-214,Udvendige skeletkonstruerede vægge,IfcWallType,PARTITIONING,,,,,
-215,Udvendige skeletkonstruerede vægskørter,IfcWallType,PARTITIONING,,,,,
-216,Udvendige facadesystemer,IfcCurtainWallType,USERDEFINED,,,,,
-217,Udvendige isoleringsvægsystemer,IfcCoveringType,INSULATION,,,,,
-218,Udvendige lyskasser,IfcElementAssemblyType,USERDEFINED,,,,,
-219,"Øvrigt, Ydervægge",,,,,,,
-22,Indervægge,,,,,,,
-221,Indvendige vægelementer,IfcWallType,SOLIDWALL,,,,,
-222,Indvendige pladsstøbte vægge,IfcWallType,SOLIDWALL,,,,,
-223,Indvendige opmurede vægge,IfcWallType,STANDARD,,,,,
-224,Indvendige skeletkonstruerede vægge,IfcWallType,PARTITIONING,,,,,
-225,Indvendige skeletkonstruerede vægskørter,IfcWallType,PARTITIONING,,,,,
-226,Indvendige glasvægsystemer,IfcCurtainWallType,USERDEFINED,,,,,
-229,"Øvrigt, Indervægge",,,,,,,
-23,Dæk,IfcSlabType,NOTDEFINED,,,,,
-231,Dækelementer,,,,,,,
-232,Pladsstøbte dæk,IfcSlabType,FLOOR,,,,,
-233,Skeletkonstruerede dæk,IfcSlabType,FLOOR,,,,,
-234,Afretningslag,IfcSlabType,USERDEFINED,,,,,
-239,"Øvrigt, Dæk",IfcSlabType,,,,,,
-24,Trapper og ramper,,,,,,,
-241,Elementtrapper,IfcStairType,,,,,,
-242,Pladsstøbte trapper,IfcStairType,,,,,,
-243,Sammensatte trapper,IfcStairType,,,,,,
-244,Element ramper,IfcRampType,,,,,,
-245,Pladsstøbte ramper,IfcRampType,,,,,,
-246,Sammensatte ramper,IfcRampType,,,,,,
-247,"Faste stiger, lejdere og trin",IfcStairType,USERDEFINED,,,,,
-249,"Øvrigt, Trapper og ramper",,,,,,,
-25,Bjælker og søjler,,,,,,,
-251,Elementbjælker,IfcBeamType,,,,,,
-252,Pladsstøbte bjælker,IfcBeamType,,,,,,
-253,Stålbjælker,IfcBeamType,,,,,,
-254,- verkant -,,,,,,,
-255,Elementsøjler,IfcColumnType,,,,,,
-256,Pladsstøbte søjler,IfcColumnType,,,,,,
-257,Stålsøjler,IfcColumnType,,,,,,
-259,"Øvrigt, Bjælker og søjler",,,,,,,
-26,Altaner og altangange,,,,,,,
-261,Elementaltaner og altangange,,,,,,,
-262,Pladsstøbte altaner og altangange,,,,,,,
-263,"Sammensatte altaner, altangange",IfcElementAssemblyType,USERDEFINED,,,,,
-269,"Øvrigt, Altaner og altangange",,,,,,,
-27,Tage,,,,,,,
-271,Spærtage,IfcRoofType,,,,,,
-272,Tagkassetter,IfcRoofType,,,,,,
-273,Varme tage,IfcRoofType,,,,,,
-274,Glastagssystemer,IfcRoofType,,,,,,
-275,Mobile tage,IfcRoofType,USERDEFINED,,,,,
-276,Baldakiner og overdækninger,IfcShadingDeviceType,AWNING,,,,,
-279,"Øvrigt, Tagværker",,,,,,,
-29,"Primære bygningsdele, øvrige",,,,,,,
-3,Kompletterende bygningsdele,,,,,,,
-30,"Kompletterende bygningsdele, terræn",,,,,,,
-301,"Hegn, afskærmninger",,,,,,,
-302,"Gelændere, rækværker og håndlister i terræn",IfcRailingType,HANDRAIL,,,,,
-303,Overgange i terræn,,,,,,,
-304,Kantbegrænsninger,,,,,,,
-305,Konstruerede elementer,,,,,,,
-309,Øvrigt terræn komplettering,,,,,,,
-31,"Ydervægge, komplettering",,,,,,,
-311,"Udvendige døre ",IfcDoorType,DOOR,,,,,
-312,Udvendige vinduer,IfcWindowType,WINDOW,,,,,
-313,"Udvendige døre, facadesystemer",IfcDoorType,DOOR,,,,,
-314,"Udvendige vinduesopluk, facadesystemer",IfcWindowType,WINDOW,,,,,
-315,"Udvendige ruder, blændfelter og karmprofiler, facadesystemer",,,,,,,
-316,Udvendige porte og karusseldøre,IfcDoorType,GATE,,,,,
-317,Udvendige afskærmninger,,,,,,,
-319,"Øvrigt, Ydervægskompletteringer",,,,,,,
-32,"Indervægge, komplettering",,,,,,,
-321,Indvendige døre,IfcDoorType,DOOR,,,,,
-322,"Indvendige vinduer, luger og lemme",IfcWindowType,WINDOW,,,,,
-323,"Indvendige døre, glasvægsystem",IfcDoorType,DOOR,,,,,
-324,"Indvendige vinduesopluk, glasvægsystemer",IfcWindowType,WINDOW,,,,,
-325,"Indvendige ruder, blændfelter og karmprofiler,glasvægsystemer",,,,,,,
-326,Indvendige porte og karruseldøre,IfcDoorType,GATE,,,,,
-327,Bevægelige indervægge,IfcWallType," MOVABLE",,,,,
-328,"Indvendige, afskærmning",,,,,,,
-329,"Øvrigt, Indervægskompletteringer",,,,,,,
-33,"Dæk og gulve, komplettering",,,,,,,
-331,Opbyggede gulve,IfcCoveringType,FLOORING,,,,,
-332,Svømmende gulve,IfcCoveringType,FLOORING,,,,,
-333,"Riste, måtterammer",IfcCoveringType,USERDEFINED,,,,,
-334,Støbte- og flydende gulve,IfcCoveringType,FLOORING,,,,,
-335,- verkant -,,,,,,,
-336,- verkant -,,,,,,,
-337,Gulvlemme,IfcDoorType,TRAPDOOR,,,,,
-338,"Gelændere, rækværker og håndlister",IfcRailingType,HANDRAIL,,,,,
-339,"Øvrigt, Dækkompletteringer",,,,,,,
-34,"Trapper og ramper, komplettering",,,,,,,
-341,"Gelændere, rækværker og håndlister",IfcRailingType,GUARDRAIL,,,,,
-342,- verkant -,,,,,,,
-343,- verkant -,,,,,,,
-349,"Øvrigt, Trappekompletteringer",,,,,,,
-35,"Lofter, komplettering",,,,,,,
-351,Indvendige nedhængte lofter,IfcCoveringType,CEILING,,,,,
-352,Udvendige nedhængte lofter,IfcCoveringType,CEILING,,,,,
-353,Indvendige påbyggede lofter,IfcCoveringType,CEILING,,,,,
-354,Udvendige påbyggede lofter,IfcCoveringType,CEILING,,,,,
-355,Indvendige loftskørter,,,,,,,
-356,Udvendige loftskørter,,,,,,,
-357,- verkant -,,,,,,,
-359,"Øvrigt, Loftkompletteringer",,,,,,,
-36,"Altaner og altangange, komplettering",,,,,,,
-361,"Rækværker, brystninger",,,,,,,
-369,"Øvrigt, Altaner og altangange kompletteringer",,,,,,,
-37,"Tage, komplettering",,,,,,,
-371,Kviste,IfcRootType,,,,,,
-372,"Ovenlys, røg- og taglemme",IfcWindowType,WINDOW,,,,,
-373,Solskærme til ovenlys,,,,,,,
-374,Sikring,IfcRailingType,BALUSTRADE,,,,,
-375,- verkant -,,,,,,,
-376,Inddækninger,,,,,,,
-377,Belægninger på færdige tagflader,,,,,,,
-379,"Øvrigt, Tagkompletteringer",,,,,,,
-39,"Kompletterende bygningsdele bygning, øvrige",,,,,,,
-4,Overfladebygningsdele,,,,,,,
-40,"Overflader, terræn",,,,,,,
-401,Asfalt belægninger,IfcCoveringType,,,,,,
-402,Betonstøbte belægninger,IfcCoveringType,,,,,,
-403,Gummibelægninger,IfcCoveringType,,,,,,
-404,Flise -og stenbelægninger,IfcCoveringType,,,,,,
-405,Skærver og grus,IfcCoveringType,,,,,,
-406,Brolægning,IfcCoveringType,,,,,,
-407,Afstribninger og markeringer,,,,,,,
-409,"Øvrigt, Belægninger",,,,,,,
-41,Udvendige vægoverflader,,,,,,,
-411,- verkant -,,,,,,,
-412,"Beklædninger, påmurede, pudsede",IfcCoveringType,CLADDING,,,,,
-413,"Beklædninger, monterede",IfcCoveringType,CLADDING,,,,,
-419,"Øvrigt, Udvendige vægoverflader",,,,,,,
-42,Indvendige vægoverflader,,,,,,,
-421,- verkant -,,,,,,,
-422,"Beklædninger, påmurede, pudsede",IfcCoveringType,CLADDING,,,,,
-423,"Beklædninger, monterede",IfcCoveringType,CLADDING,,,,,
-429,"Øvrigt, Indvendige vægoverflader",,,,,,,
-43,"Dæk og gulve, overflader",,,,,,,
-431,- verkant -,,,,,,,
-432,"Beklædninger, påmurede og støbte",IfcCoveringType,FLOORING,,,,,
-433,"Beklædninger, monterede",IfcCoveringType,FLOORING,,,,,
-439,"Øvrigt, Dæk og gulvoverflader",,,,,,,
-44,"Trapper og ramper, overflader",,,,,,,
-441,- verkant -,,,,,,,
-442,"Beklædninger, påmurede",IfcCoveringType,USERDEFINED,,,,,
-443,"Beklædninger, monterede",IfcCoveringType,USERDEFINED,,,,,
-449,"Øvrigt, Trapper og ramper, overflader",,,,,,,
-45,"Lofter, overflader",,,,,,,
-451,- verkant -,,,,,,,
-452,"Beklædninger, påmurede",IfcCoveringType,CEILING,,,,,
-453,"Beklædninger, monterede",IfcCoveringType,CEILING,,,,,
-459,"Øvrigt, Loftoverflader",,,,,,,
-46,"Altaner, overflader",,,,,,,
-461,- verkant -,,,,,,,
-462,"Beklædninger, påmurede",IfcCoveringType,,,,,,
-463,"Beklædninger, monterede",IfcCoveringType,,,,,,
-469,"Øvrigt, Altanoverflader",,,,,,,
-47,"Tage, overflader",,,,,,,
-471,- verkant -,,,,,,,
-472,Tagdækninger,IfcCoveringType,ROOFING,,,,,
-479,"Øvrigt, Tagoverflader",,,,,,,
-49,"Overflader bygning, øvrige",,,,,,,
-5,VVS- og ventilationsanlæg,,,,,,,
-50,"VVS-anlæg, terræn",,,,,,,
-501,Metal- og betonrør i jord,,,,,,,
-502,Fleksible plastrør i jord,,,,,,,
-503,Hårde plastrør i jord,,,,,,,
-504,Brønde,IfcDistributionChamberElementType,,,,,,
-505,Riste/Linjedræn,IfcWasteTerminalType,,,,,,
-506,"Udskiller (Olie, fedt, benzin mv.)",IfcInterceptorType,,,,,,
-507,Sanitetstilslutninger,IfcPipeFittingType,CONNECTOR,,,,,
-508,Tilbehør,,,,,,,
-509,"Øvrigt, VVS-anlæg terræn",,,,,,,
-51,Logistik,,,,,,,
-511,Affalds- og logistiksystemer,,,,,,,
-519,"Øvrigt, Logistik",,,,,,,
-52,Afløb og sanitet,,,,,,,
-521,"Spildevand, tilslutninger",IfcPipeFittingType,CONNECTOR,,,,,
-522,"Toiletter, tilslutninger",IfcPipeFittingType,CONNECTOR,,,,,
-523,"Vaske, tilslutninger",IfcPipeFittingType,CONNECTOR,,,,,
-524,"Vand- og afløb, tilslutninger",IfcPipeFittingType,CONNECTOR,,,,,
-525,"Vand- og afløb, tilslutninger til teknisk udstyr",IfcPipeFittingType,CONNECTOR,,,,,
-526,"Vand- og afløb, tilslutninger til lab. udstyr",IfcPipeFittingType,CONNECTOR,,,,,
-527,"Regnvand, tilslutninger",IfcPipeFittingType,CONNECTOR,,,,,
-528,"Afløbs-, Sanitets- og Regnvandsgenstande",,,,,,,
-529,"Øvrigt, Afløb og sanitet, tilslutninger",,,,,,,
-53,"Vand (koldt/varmt vand, behandlet vand)",,,,,,,
-531,Mekanisk udstyr,,,,,,,
-532,Vandtilslutninger,IfcPipeFittingType,CONNECTOR,,,,,
-533,Vandbehandlingsanlæg,,,,,,,
-534,"Brandslukning, tilslutninger",IfcPipeFittingType,CONNECTOR,,,,,
-535,"Målere, Vand",IfcFlowMeterType,WATERMETER,,,,,
-536,"Armaturer-, Vandgenstande",,,,,,,
-539,"Øvrigt, Vand",,,,,,,
-54,"Luftarter (gas, trykluft, vakuum, damp)",,,,,,,
-541,Mekanisk udstyr,,,,,,,
-542,Luftartsudtag,IfcPipeFittingType,CONNECTOR,,,,,
-543,Luftartsproducerende anlæg,,,,,,,
-545,Tilbehør,,,,,,,
-546,"Målere, Luftarter",IfcFlowMeterType,GASMETER,,,,,
-549,"Øvrigt, Luftarter",,,,,,,
-55,Køling,,,,,,,
-551,Mekanisk udstyr,,,,,,,
-552,Kølegivere,,,,,,,
-553,Køleproducerende anlæg,,,,,,,
-554,"Målere, Køling",IfcFlowMeterType,ENERGYMETER,,,,,
-559,"Øvrigt, Køling",,,,,,,
-56,Varme,,,,,,,
-561,Mekanisk udstyr,,,,,,,
-562,Varmegivere,IfcSpaceHeaterType,,,,,,
-563,Varmeproducerende anlæg,,,,,,,
-564,"Målere, Varme",IfcFlowMeterType,ENERGYMETER,,,,,
-569,"Øvrigt, Varme",,,,,,,
-57,Ventilation,,,,,,,
-571,Kanaler,,,,,,,
-572,"Anlæg, køle- og varmeflader, vekslere",,,,,,,
-573,Kanal tilbehør,,,,,,,
-574,Ventilatorer,IfcFanType,,,,,,
-575,Ventilationsarmaturer,IfcAirTerminalType,,,,,,
-576,Tilslutninger til udstyr,IfcDuctFittingType,CONNECTOR,,,,,
-577,Taghætter/gennemføringer,,,,,,,
-578,Kanalisolering,IfcCoveringType,INSUALTION,,,,,
-579,"Øvrigt, Ventilation",,,,,,,
-58,Sprinkling,,,,,,,
-581,Mekanisk udstyr,,,,,,,
-582,Sprinklerdyser,IfcFireSuppressionTerminalType,SPRINKLER,,,,,
-583,Brandskabe,IfcFireSuppressionTerminalType,HOSEREEL,,,,,
-589,"Øvrigt, Sprinkling",,,,,,,
-59,"Tværgående komponenter, VVS",,,,,,,
-591,Metalrør i bygninger,,,,,,,
-592,Fleksible rør i bygninger,,,,,,,
-593,Hårde plastrør i bygninger,,,,,,,
-594,Statiske Ventiler,IfcValveType,,,,,,
-595,Dynamiske Ventiler,IfcValveType,,,,,,
-596,Moterdrevne rørtilbehør,,,,,,,
-597,"Målere, filtre og øvrige",,,,,,,
-598,Rørisolering,IfcCoveringType,INSULATION,,,,,
-599,"Bæringer, udsparinger og øvrige",,,,,,,
-6,El- og mekaniske anlæg,,,,,,,
-60,"El- og mekaniske anlæg, Terræn",,,,,,,
-601,Ledninger,IfcCableSegmentType,,,,,,
-602,Belysning,IfcLightFixtureType,,,,,,
-603,Installation for anlæg under terræn,,,,,,,
-604,Installation for anlæg på terræn,,,,,,,
-605,Trafikstyring,,,,,,,
-606,Føringsveje under terræn,,,,,,,
-609,"Øvrigt, El- og mekaniske anlæg, terræn",,,,,,,
-61,Føringsveje,,,,,,,
-611,Bakker/stiger,,,,,,,
-612,Kanaler,,,,,,,
-613,Kabelrør,IfcCableCarrierSegmentType,CONDUITSEGMENT,,,,,
-614,Fiberbakker,,,,,,,
-615,"Bæringer, udsparinger og øvrige",,,,,,,
-616,Dåser og indstøbninger,,,,,,,
-619,"Øvrigt, Føringsveje",,,,,,,
-62,Højspænding,,,,,,,
-621,Forsyning,,,,,,,
-622,Fordeling,,,,,,,
-623,Installationer for apparater og maskiner,,,,,,,
-629,"Øvrigt, Højspænding",,,,,,,
-63,Lavspænding,,,,,,,
-631,Forsyninger - ekstern,,,,,,,
-632,Fordeling,,,,,,,
-633,Installationer for apparater og maskiner,,,,,,,
-634,Termiske anlæg,,,,,,,
-635,Installationer for belysning,,,,,,,
-636,Belysningsarmaturer,IfcLightFixtureType,,,,,,
-637,Kraftinstallationer,,,,,,,
-638,Vedvarende energi - Intern forsyning,,,,,,,
-639,"Øvrigt, Lavspænding",,,,,,,
-64,Kommunikation og information,,,,,,,
-641,Kommunikation,,,,,,,
-642,Information,,,,,,,
-643,"Audio, video og antenner",,,,,,,
-644,IT-infrastrukturer,,,,,,,
-649,"Øvrigt, Kommunikation og information",,,,,,,
-65,Sikring,,,,,,,
-651,Adgangssikringer,,,,,,,
-652,Sikringsanlæg,,,,,,,
-653,Personsikringer,,,,,,,
-659,"Øvrigt, Sikring",,,,,,,
-66,Bygningsautomation,,,,,,,
-661,Managementsystemer,,,,,,,
-662,Central tilstandsstyring,,,,,,,
-663,Descentral tilstandsstyring,,,,,,,
-664,Automatikkomponenter,,,,,,,
-669,"Øvrigt, Bygningsautomation",,,,,,,
-67,Beskyttelse,,,,,,,
-671,Overspændingsbeskyttelse,,,,,,,
-672,Udligningsforbindelser,,,,,,,
-679,"Øvrigt, Beskyttelse",,,,,,,
-68,"Person-, materiale- og servicetransport",,,,,,,
-681,Persontransport,,,,,,,
-682,Gods- og materialetransport,,,,,,,
-683,Servicetransport,,,,,,,
-689,"Øvrigt, Person-, materiale- og servicetransport",,,,,,,
-69,"El- og mekaniske anlæg, øvrige",,,,,,,
-7,Inventar og teknisk udstyr,,,,,,,
-70,"Inventar, terræn",,,,,,,
-701,Tekniske inventarenheder,,,,,,,
-702,"Tavler, skilte og skærme",,,,,,,
-703,Opbevaring,IfcFurnitureType,,,,,,
-704,Bordmøbler,IfcFurnitureType,TABLE,,,,,
-705,Siddemøbler,IfcFurnitureType,,,,,,
-706,Afskærmninger,IfcFurnitureType,,,,,,
-707,Aktivites- og legeudstyr,IfcGeographicElementType,USERDEFINED,,,,,
-709,"Øvrigt, Inventar i terræn",,,,,,,
-71,"Inventar, fastmonteret",IfcFurnitureType,NOTDEFINED,,,,,
-711,"Opbevaringsmøbler, fastmonterede",IfcFurnitureType,,,,,,
-712,- verkant -,,,,,,,
-713,"Siddemøbler, liggemøbler",IfcFurnitureType,,,,,,
-714,"Gardiner, persienner, skærmvægge, forhæng",IfcFurnitureType,USERDEFINED,,,,,
-715,"Borde, bordplader",IfcFurnitureType,,,,,,
-716,"Skilte, tavler",IfcFurnitureType,USERDEFINED,,,,,
-717,Garniture,IfcFurnitureType,USERDEFINED,,,,,
-719,"Øvrigt, Fastmonteret inventar",IfcFurnitureType,,,,,,
-72,"Inventar, løst",IfcFurnitureType,NOTDEFINED,,,,,
-721,"Opbevaringsmøbler, løse",IfcFurnitureType,,,,,,
-722,- verkant -,,,,,,,
-723,"Siddemøbler, liggemøbler",IfcFurnitureType,,,,,,
-724,"Skærmvægge, forhæng",IfcFurnitureType,USERDEFINED,,,,,
-725,Borde,IfcFurnitureType,,,,,,
-726,Stativer,IfcFurnitureType,USERDEFINED,,,,,
-727,"Måtter, tæpper, løbere",IfcFurnitureType,USERDEFINED,,,,,
-729,"Øvrigt, Løst inventar",IfcFurnitureType,USERDEFINED,,,,,
-73,"Inventar, tekniske-, IT- og av-inventarenheder",,,,,,,
-731,AV-udstyr,IfcAudioVisualApplianceType,,,,,,
-732,IT-udstyr,IfcCommunicationsApplianceType,,,,,,
-733,Belysning,IfcLightFixtureType,,,,,,
-734,Automater,IfcElectricApplianceType,VENDINGMACHINE,,,,,
-735,Brandslukningsudstyr,IfcFurnitureType,USERDEFINED,,,,,
-736,Hårde hvidevarer,IfcElectricApplianceType,,,,,,
-739,"Øvrigt, Tekniske-, IT- og av-inventarenheder",,,,,,,
-79,"Inventar, øvrige",,,,,,,
-8,Beplantning,IfcGeographicElementType,NOTDEFINED,,,,,
-80,Beplantning,IfcGeographicElementType,NOTDEFINED,,,,,
-801,Træer,IfcGeographicElementType,USERDEFINED,,,,,
-802,Buske og hække,IfcGeographicElementType,USERDEFINED,,,,,
-803,Muldlag,IfcGeographicElementType,TERRAIN,,,,,
-804,Bunddække og stauder,IfcGeographicElementType,USERDEFINED,,,,,
-805,Græsarealer,IfcGeographicElementType,USERDEFINED,,,,,
-806,Ekstensive beplantningssystemer,IfcGeographicElementType,USERDEFINED,,,,,
-807,Intensive opbygninger på tage,IfcGeographicElementType,USERDEFINED,,,,,
-809,"Øvrigt, Beplantning",IfcGeographicElementType,USERDEFINED,,,,,
-81,- verkant -,,,,,,,
-89,"Beplantning, øvrige",IfcGeographicElementType,,,,,,
-9,Projektudstyr,,,,,,,
-91,Projektudstyr ARK,,,,,,,
-911,FRI,,,,,,,
-92,Projektudstyr KON,,,,,,,
-921,FRI,,,,,,,
-93,Projektudstyr VENT,,,,,,,
-931,FRI,,,,,,,
-94,Projektudstyr VVS,,,,,,,
-941,FRI,,,,,,,
-95,Projektudstyr EL,,,,,,,
-951,FRI,,,,,,,
-96,Projektudstyr LAND,,,,,,,
-961,FRI,,,,,,,
-97,Projektudstyr ENTREPRENØR/LEVERANDØR,,,,,,,
-971,FRI,,,,,,,
-99,"Projektudstyr, øvrige",,,,,,,
-991,FRI,,,,,,,
+BIMTypeCode;BIMTypeCode-Description;IFC-IfcTypeObject;IFC-PredefinedType;CCS;BC/SfB;C213;FVK;LCAbygg
+0;Generiske objekter;;;;;;;
+01;Generiske objekter ARK;;;;;;;
+011;FRI;;;;;;;
+02;Generiske objekter KON;;;;;;;
+021;FRI;;;;;;;
+03;Generiske objekter VENT;;;;;;;
+031;FRI;;;;;;;
+04;Generiske objekter VVS;;;;;;;
+041;FRI;;;;;;;
+05;Generiske objekter EL;;;;;;;
+051;FRI;;;;;;;
+06;Generiske objekter LAND;;;;;;;
+061;FRI;;;;;;;
+07;Generiske objekter Entreprenør/Leverandør;;;;;;;
+071;FRI;;;;;;;
+09;Generiske objekter, øvrigt;;;;;;;
+091;FRI;;;;;;;
+1;Bygningsbasis;;;;1.;;;
+10;Terræn;;;;;;;
+101;Forberedt grund;;;;;;;
+102;Byggegrube inkl. afstivning;;;;;;;
+103;Spunsvægge;IfcPileType;;;;;;
+104;- verkant -;;;;;;;
+105;"Pæle ";IfcPileType;;;;;;
+109;Øvrigt, Bygningsbasis i terræn;;;;;;;
+12;Fundamenter;;;;;;;
+121;Liniefundamenter;IfcFootingType;STRIP_FOOTING;;;;;
+122;Punktfundamenter;IfcFootingType;PAD_FOOTING;;;;;
+123;Pladefundamenter;IfcSlabType;BASESLAB;;;;;
+124;Opmurede fundamenter;IfcFootingType;USERDEFINED;;;;;
+125;Maskinfundamenter;IfcFootingType;USERDEFINED;;;;;
+126;Pælefundamenter og brøndfundamenter;IfcFootingType;PILE_CAP;;;;;
+127;- verkant -;;;;;;;
+129;Øvrigt, Fundamenter;;;;;;;
+13;Terrændæk;IfcCoveringType;NOTDEFINED;;;;;
+131;Terrændæk;IfcCoveringType;INSULATION;;;;;
+139;Øvrigt, Terrændæk;IfcCoveringType;USERDEFINED;;;;;
+19;Bygningsbasis, øvrige;;;;;;;
+191;Kanaler under terrændæk;IfcDistributionChamberElementType;USERDEFINED;;;;;
+192;Gruber og sumpe;IfcDistributionChamberElementType;SUMP;;;;;
+2;Primære bygningsdele;;;;2.;;;
+20;Primære bygningsdele, terræn;;;;;;;
+201;Hegnsmure;IfcWallType;SOLIDWALL;;;;;
+202;Støttemure;IfcWallType;SHEAR;;;;;
+203;"Teknikgange ";;;;;;;
+204;Fodgængerbroer, viadukter m.m.;;;;;;;
+205;Trapper i terræn;IfcStairType;;;;;;
+206;Ramper i terræn;IfcRampType;;;;;;
+209;Øvrigt, Primære bygningsdele i terræn;;;;;;;
+21;Ydervægge;;;;;;;
+211;Udvendige vægelementer;IfcWallType;SOLIDWALL;;;;;
+212;Udvendige pladsstøbte vægge;IfcWallType;SOLIDWALL;;;;;
+213;Udvendige opmurede vægge;IfcWallType;STANDARD;;;;;
+214;Udvendige skeletkonstruerede vægge;IfcWallType;PARTITIONING;;21Fg2;;;
+215;Udvendige skeletkonstruerede vægskørter;IfcWallType;PARTITIONING;;;;;
+216;Udvendige facadesystemer;IfcCurtainWallType;USERDEFINED;;;;;
+217;Udvendige isoleringsvægsystemer;IfcCoveringType;INSULATION;;;;;
+218;Udvendige lyskasser;IfcElementAssemblyType;USERDEFINED;;;;;
+219;Øvrigt, Ydervægge;;;;;;;
+22;Indervægge;;;;;;;
+221;Indvendige vægelementer;IfcWallType;SOLIDWALL;;;;;
+222;Indvendige pladsstøbte vægge;IfcWallType;SOLIDWALL;;;;;
+223;Indvendige opmurede vægge;IfcWallType;STANDARD;;22Fg2;;;
+224;Indvendige skeletkonstruerede vægge;IfcWallType;PARTITIONING;;;;;
+225;Indvendige skeletkonstruerede vægskørter;IfcWallType;PARTITIONING;;;;;
+226;Indvendige glasvægsystemer;IfcCurtainWallType;USERDEFINED;;;;;
+229;Øvrigt, Indervægge;;;;;;;
+23;Dæk;IfcSlabType;NOTDEFINED;;;;;
+231;Dækelementer;;;;;;;
+232;Pladsstøbte dæk;IfcSlabType;FLOOR;;;;;
+233;Skeletkonstruerede dæk;IfcSlabType;FLOOR;;;;;
+234;Afretningslag;IfcSlabType;USERDEFINED;;;;;
+239;Øvrigt, Dæk;IfcSlabType;;;;;;
+24;Trapper og ramper;;;;;;;
+241;Elementtrapper;IfcStairType;;;;;;
+242;Pladsstøbte trapper;IfcStairType;;;;;;
+243;Sammensatte trapper;IfcStairType;;;;;;
+244;Element ramper;IfcRampType;;;;;;
+245;Pladsstøbte ramper;IfcRampType;;;;;;
+246;Sammensatte ramper;IfcRampType;;;;;;
+247;Faste stiger, lejdere og trin;IfcStairType;USERDEFINED;;;;;
+249;Øvrigt, Trapper og ramper;;;;;;;
+25;Bjælker og søjler;;;;;;;
+251;Elementbjælker;IfcBeamType;;;;;;
+252;Pladsstøbte bjælker;IfcBeamType;;;;;;
+253;Stålbjælker;IfcBeamType;;;;;;
+254;- verkant -;;;;;;;
+255;Elementsøjler;IfcColumnType;;;;;;
+256;Pladsstøbte søjler;IfcColumnType;;;;;;
+257;Stålsøjler;IfcColumnType;;;;;;
+259;Øvrigt, Bjælker og søjler;;;;;;;
+26;Altaner og altangange;;;;;;;
+261;Elementaltaner og altangange;;;;;;;
+262;Pladsstøbte altaner og altangange;;;;;;;
+263;Sammensatte altaner, altangange;IfcElementAssemblyType;USERDEFINED;;;;;
+269;Øvrigt, Altaner og altangange;;;;;;;
+27;Tage;;;;;;;
+271;Spærtage;IfcRoofType;;;;;;
+272;Tagkassetter;IfcRoofType;;;;;;
+273;Varme tage;IfcRoofType;;;;;;
+274;Glastagssystemer;IfcRoofType;;;;;;
+275;Mobile tage;IfcRoofType;USERDEFINED;;;;;
+276;Baldakiner og overdækninger;IfcShadingDeviceType;AWNING;;;;;
+279;Øvrigt, Tagværker;;;;;;;
+29;Primære bygningsdele, øvrige;;;;;;;
+3;Kompletterende bygningsdele;;;;3.;;;
+30;Kompletterende bygningsdele, terræn;;;;;;;
+301;Hegn, afskærmninger;;;;;;;
+302;Gelændere, rækværker og håndlister i terræn;IfcRailingType;HANDRAIL;;;;;
+303;Overgange i terræn;;;;;;;
+304;Kantbegrænsninger;;;;;;;
+305;Konstruerede elementer;;;;;;;
+309;Øvrigt terræn komplettering;;;;;;;
+31;Ydervægge, komplettering;;;;;;;
+311;"Udvendige døre ";IfcDoorType;DOOR;;;;;
+312;Udvendige vinduer;IfcWindowType;WINDOW;;;;;
+313;Udvendige døre, facadesystemer;IfcDoorType;DOOR;;;;;
+314;Udvendige vinduesopluk, facadesystemer;IfcWindowType;WINDOW;;;;;
+315;Udvendige ruder, blændfelter og karmprofiler, facadesystemer;;;;;;;
+316;Udvendige porte og karusseldøre;IfcDoorType;GATE;;;;;
+317;Udvendige afskærmninger;;;;;;;
+319;Øvrigt, Ydervægskompletteringer;;;;;;;
+32;Indervægge, komplettering;;;;;;;
+321;Indvendige døre;IfcDoorType;DOOR;;;;;
+322;Indvendige vinduer, luger og lemme;IfcWindowType;WINDOW;;;;;
+323;Indvendige døre, glasvægsystem;IfcDoorType;DOOR;;;;;
+324;Indvendige vinduesopluk, glasvægsystemer;IfcWindowType;WINDOW;;;;;
+325;Indvendige ruder, blændfelter og karmprofiler,glasvægsystemer;;;;;;;
+326;Indvendige porte og karruseldøre;IfcDoorType;GATE;;;;;
+327;Bevægelige indervægge;IfcWallType;" MOVABLE";;;;;
+328;Indvendige, afskærmning;;;;;;;
+329;Øvrigt, Indervægskompletteringer;;;;;;;
+33;Dæk og gulve, komplettering;;;;;;;
+331;Opbyggede gulve;IfcCoveringType;FLOORING;;;;;
+332;Svømmende gulve;IfcCoveringType;FLOORING;;;;;
+333;Riste, måtterammer;IfcCoveringType;USERDEFINED;;;;;
+334;Støbte- og flydende gulve;IfcCoveringType;FLOORING;;;;;
+335;- verkant -;;;;;;;
+336;- verkant -;;;;;;;
+337;Gulvlemme;IfcDoorType;TRAPDOOR;;;;;
+338;Gelændere, rækværker og håndlister;IfcRailingType;HANDRAIL;;;;;
+339;Øvrigt, Dækkompletteringer;;;;;;;
+34;Trapper og ramper, komplettering;;;;;;;
+341;Gelændere, rækværker og håndlister;IfcRailingType;GUARDRAIL;;;;;
+342;- verkant -;;;;;;;
+343;- verkant -;;;;;;;
+349;Øvrigt, Trappekompletteringer;;;;;;;
+35;Lofter, komplettering;;;;;;;
+351;Indvendige nedhængte lofter;IfcCoveringType;CEILING;;;;;
+352;Udvendige nedhængte lofter;IfcCoveringType;CEILING;;;;;
+353;Indvendige påbyggede lofter;IfcCoveringType;CEILING;;;;;
+354;Udvendige påbyggede lofter;IfcCoveringType;CEILING;;;;;
+355;Indvendige loftskørter;;;;;;;
+356;Udvendige loftskørter;;;;;;;
+357;- verkant -;;;;;;;
+359;Øvrigt, Loftkompletteringer;;;;;;;
+36;Altaner og altangange, komplettering;;;;;;;
+361;Rækværker, brystninger;;;;;;;
+369;Øvrigt, Altaner og altangange kompletteringer;;;;;;;
+37;Tage, komplettering;;;;;;;
+371;Kviste;IfcRootType;;;;;;
+372;Ovenlys, røg- og taglemme;IfcWindowType;WINDOW;;;;;
+373;Solskærme til ovenlys;;;;;;;
+374;Sikring;IfcRailingType;BALUSTRADE;;;;;
+375;- verkant -;;;;;;;
+376;Inddækninger;;;;;;;
+377;Belægninger på færdige tagflader;;;;;;;
+379;Øvrigt, Tagkompletteringer;;;;;;;
+39;Kompletterende bygningsdele bygning, øvrige;;;;;;;
+4;Overfladebygningsdele;;;;4.;;;
+40;Overflader, terræn;;;;;;;
+401;Asfalt belægninger;IfcCoveringType;;;;;;
+402;Betonstøbte belægninger;IfcCoveringType;;;;;;
+403;Gummibelægninger;IfcCoveringType;;;;;;
+404;Flise -og stenbelægninger;IfcCoveringType;;;;;;
+405;Skærver og grus;IfcCoveringType;;;;;;
+406;Brolægning;IfcCoveringType;;;;;;
+407;Afstribninger og markeringer;;;;;;;
+409;Øvrigt, Belægninger;;;;;;;
+41;Udvendige vægoverflader;;;;;;;
+411;- verkant -;;;;;;;
+412;Beklædninger, påmurede, pudsede;IfcCoveringType;CLADDING;;;;;
+413;Beklædninger, monterede;IfcCoveringType;CLADDING;;;;;
+419;Øvrigt, Udvendige vægoverflader;;;;;;;
+42;Indvendige vægoverflader;;;;;;;
+421;- verkant -;;;;;;;
+422;Beklædninger, påmurede, pudsede;IfcCoveringType;CLADDING;;;;;
+423;Beklædninger, monterede;IfcCoveringType;CLADDING;;;;;
+429;Øvrigt, Indvendige vægoverflader;;;;;;;
+43;Dæk og gulve, overflader;;;;;;;
+431;- verkant -;;;;;;;
+432;Beklædninger, påmurede og støbte;IfcCoveringType;FLOORING;;;;;
+433;Beklædninger, monterede;IfcCoveringType;FLOORING;;;;;
+439;Øvrigt, Dæk og gulvoverflader;;;;;;;
+44;Trapper og ramper, overflader;;;;;;;
+441;- verkant -;;;;;;;
+442;Beklædninger, påmurede;IfcCoveringType;USERDEFINED;;;;;
+443;Beklædninger, monterede;IfcCoveringType;USERDEFINED;;;;;
+449;Øvrigt, Trapper og ramper, overflader;;;;;;;
+45;Lofter, overflader;;;;;;;
+451;- verkant -;;;;;;;
+452;Beklædninger, påmurede;IfcCoveringType;CEILING;;;;;
+453;Beklædninger, monterede;IfcCoveringType;CEILING;;;;;
+459;Øvrigt, Loftoverflader;;;;;;;
+46;Altaner, overflader;;;;;;;
+461;- verkant -;;;;;;;
+462;Beklædninger, påmurede;IfcCoveringType;;;;;;
+463;Beklædninger, monterede;IfcCoveringType;;;;;;
+469;Øvrigt, Altanoverflader;;;;;;;
+47;Tage, overflader;;;;;;;
+471;- verkant -;;;;;;;
+472;Tagdækninger;IfcCoveringType;ROOFING;;;;;
+479;Øvrigt, Tagoverflader;;;;;;;
+49;Overflader bygning, øvrige;;;;;;;
+5;VVS- og ventilationsanlæg;;;;5.;;;
+50;VVS-anlæg, terræn;;;;;;;
+501;Metal- og betonrør i jord;;;;;;;
+502;Fleksible plastrør i jord;;;;;;;
+503;Hårde plastrør i jord;;;;;;;
+504;Brønde;IfcDistributionChamberElementType;;;;;;
+505;Riste/Linjedræn;IfcWasteTerminalType;;;;;;
+506;Udskiller (Olie, fedt, benzin mv.);IfcInterceptorType;;;;;;
+507;Sanitetstilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+508;Tilbehør;;;;;;;
+509;Øvrigt, VVS-anlæg terræn;;;;;;;
+51;Logistik;;;;;;;
+511;Affalds- og logistiksystemer;;;;;;;
+519;Øvrigt, Logistik;;;;;;;
+52;Afløb og sanitet;;;;;;;
+521;Spildevand, tilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+522;Toiletter, tilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+523;Vaske, tilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+524;Vand- og afløb, tilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+525;Vand- og afløb, tilslutninger til teknisk udstyr;IfcPipeFittingType;CONNECTOR;;;;;
+526;Vand- og afløb, tilslutninger til lab. udstyr;IfcPipeFittingType;CONNECTOR;;;;;
+527;Regnvand, tilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+528;Afløbs-, Sanitets- og Regnvandsgenstande;;;;;;;
+529;Øvrigt, Afløb og sanitet, tilslutninger;;;;;;;
+53;Vand (koldt/varmt vand, behandlet vand);;;;;;;
+531;Mekanisk udstyr;;;;;;;
+532;Vandtilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+533;Vandbehandlingsanlæg;;;;;;;
+534;Brandslukning, tilslutninger;IfcPipeFittingType;CONNECTOR;;;;;
+535;Målere, Vand;IfcFlowMeterType;WATERMETER;;;;;
+536;Armaturer-, Vandgenstande;;;;;;;
+539;Øvrigt, Vand;;;;;;;
+54;Luftarter (gas, trykluft, vakuum, damp);;;;;;;
+541;Mekanisk udstyr;;;;;;;
+542;Luftartsudtag;IfcPipeFittingType;CONNECTOR;;;;;
+543;Luftartsproducerende anlæg;;;;;;;
+545;Tilbehør;;;;;;;
+546;Målere, Luftarter;IfcFlowMeterType;GASMETER;;;;;
+549;Øvrigt, Luftarter;;;;;;;
+55;Køling;;;;;;;
+551;Mekanisk udstyr;;;;;;;
+552;Kølegivere;;;;;;;
+553;Køleproducerende anlæg;;;;;;;
+554;Målere, Køling;IfcFlowMeterType;ENERGYMETER;;;;;
+559;Øvrigt, Køling;;;;;;;
+56;Varme;;;;;;;
+561;Mekanisk udstyr;;;;;;;
+562;Varmegivere;IfcSpaceHeaterType;;;;;;
+563;Varmeproducerende anlæg;;;;;;;
+564;Målere, Varme;IfcFlowMeterType;ENERGYMETER;;;;;
+569;Øvrigt, Varme;;;;;;;
+57;Ventilation;;;;;;;
+571;Kanaler;;;;;;;
+572;Anlæg, køle- og varmeflader, vekslere;;;;;;;
+573;Kanal tilbehør;;;;;;;
+574;Ventilatorer;IfcFanType;;;;;;
+575;Ventilationsarmaturer;IfcAirTerminalType;;;;;;
+576;Tilslutninger til udstyr;IfcDuctFittingType;CONNECTOR;;;;;
+577;Taghætter/gennemføringer;;;;;;;
+578;Kanalisolering;IfcCoveringType;INSUALTION;;;;;
+579;Øvrigt, Ventilation;;;;;;;
+58;Sprinkling;;;;;;;
+581;Mekanisk udstyr;;;;;;;
+582;Sprinklerdyser;IfcFireSuppressionTerminalType;SPRINKLER;;;;;
+583;Brandskabe;IfcFireSuppressionTerminalType;HOSEREEL;;;;;
+589;Øvrigt, Sprinkling;;;;;;;
+59;Tværgående komponenter, VVS;;;;;;;
+591;Metalrør i bygninger;;;;;;;
+592;Fleksible rør i bygninger;;;;;;;
+593;Hårde plastrør i bygninger;;;;;;;
+594;Statiske Ventiler;IfcValveType;;;;;;
+595;Dynamiske Ventiler;IfcValveType;;;;;;
+596;Moterdrevne rørtilbehør;;;;;;;
+597;Målere, filtre og øvrige;;;;;;;
+598;Rørisolering;IfcCoveringType;INSULATION;;;;;
+599;Bæringer, udsparinger og øvrige;;;;;;;
+6;El- og mekaniske anlæg;;;;6.;;;
+60;El- og mekaniske anlæg, Terræn;;;;;;;
+601;Ledninger;IfcCableSegmentType;;;;;;
+602;Belysning;IfcLightFixtureType;;;;;;
+603;Installation for anlæg under terræn;;;;;;;
+604;Installation for anlæg på terræn;;;;;;;
+605;Trafikstyring;;;;;;;
+606;Føringsveje under terræn;;;;;;;
+609;Øvrigt, El- og mekaniske anlæg, terræn;;;;;;;
+61;Føringsveje;;;;;;;
+611;Bakker/stiger;;;;;;;
+612;Kanaler;;;;;;;
+613;Kabelrør;IfcCableCarrierSegmentType;CONDUITSEGMENT;;;;;
+614;Fiberbakker;;;;;;;
+615;Bæringer, udsparinger og øvrige;;;;;;;
+616;Dåser og indstøbninger;;;;;;;
+619;Øvrigt, Føringsveje;;;;;;;
+62;Højspænding;;;;;;;
+621;Forsyning;;;;;;;
+622;Fordeling;;;;;;;
+623;Installationer for apparater og maskiner;;;;;;;
+629;Øvrigt, Højspænding;;;;;;;
+63;Lavspænding;;;;;;;
+631;Forsyninger - ekstern;;;;;;;
+632;Fordeling;;;;;;;
+633;Installationer for apparater og maskiner;;;;;;;
+634;Termiske anlæg;;;;;;;
+635;Installationer for belysning;;;;;;;
+636;Belysningsarmaturer;IfcLightFixtureType;;;;;;
+637;Kraftinstallationer;;;;;;;
+638;Vedvarende energi - Intern forsyning;;;;;;;
+639;Øvrigt, Lavspænding;;;;;;;
+64;Kommunikation og information;;;;;;;
+641;Kommunikation;;;;;;;
+642;Information;;;;;;;
+643;Audio, video og antenner;;;;;;;
+644;IT-infrastrukturer;;;;;;;
+649;Øvrigt, Kommunikation og information;;;;;;;
+65;Sikring;;;;;;;
+651;Adgangssikringer;;;;;;;
+652;Sikringsanlæg;;;;;;;
+653;Personsikringer;;;;;;;
+659;Øvrigt, Sikring;;;;;;;
+66;Bygningsautomation;;;;;;;
+661;Managementsystemer;;;;;;;
+662;Central tilstandsstyring;;;;;;;
+663;Descentral tilstandsstyring;;;;;;;
+664;Automatikkomponenter;;;;;;;
+669;Øvrigt, Bygningsautomation;;;;;;;
+67;Beskyttelse;;;;;;;
+671;Overspændingsbeskyttelse;;;;;;;
+672;Udligningsforbindelser;;;;;;;
+679;Øvrigt, Beskyttelse;;;;;;;
+68;Person-, materiale- og servicetransport;;;;;;;
+681;Persontransport;;;;;;;
+682;Gods- og materialetransport;;;;;;;
+683;Servicetransport;;;;;;;
+689;Øvrigt, Person-, materiale- og servicetransport;;;;;;;
+69;El- og mekaniske anlæg, øvrige;;;;;;;
+7;Inventar og teknisk udstyr;;;;7.;;;
+70;Inventar, terræn;;;;;;;
+701;Tekniske inventarenheder;;;;;;;
+702;Tavler, skilte og skærme;;;;;;;
+703;Opbevaring;IfcFurnitureType;;;;;;
+704;Bordmøbler;IfcFurnitureType;TABLE;;;;;
+705;Siddemøbler;IfcFurnitureType;;;;;;
+706;Afskærmninger;IfcFurnitureType;;;;;;
+707;Aktivites- og legeudstyr;IfcGeographicElementType;USERDEFINED;;;;;
+709;Øvrigt, Inventar i terræn;;;;;;;
+71;Inventar, fastmonteret;IfcFurnitureType;NOTDEFINED;;;;;
+711;Opbevaringsmøbler, fastmonterede;IfcFurnitureType;;;;;;
+712;- verkant -;;;;;;;
+713;Siddemøbler, liggemøbler;IfcFurnitureType;;;;;;
+714;Gardiner, persienner, skærmvægge, forhæng;IfcFurnitureType;USERDEFINED;;;;;
+715;Borde, bordplader;IfcFurnitureType;;;;;;
+716;Skilte, tavler;IfcFurnitureType;USERDEFINED;;;;;
+717;Garniture;IfcFurnitureType;USERDEFINED;;;;;
+719;Øvrigt, Fastmonteret inventar;IfcFurnitureType;;;;;;
+72;Inventar, løst;IfcFurnitureType;NOTDEFINED;;;;;
+721;Opbevaringsmøbler, løse;IfcFurnitureType;;;;;;
+722;- verkant -;;;;;;;
+723;Siddemøbler, liggemøbler;IfcFurnitureType;;;;;;
+724;Skærmvægge, forhæng;IfcFurnitureType;USERDEFINED;;;;;
+725;Borde;IfcFurnitureType;;;;;;
+726;Stativer;IfcFurnitureType;USERDEFINED;;;;;
+727;Måtter, tæpper, løbere;IfcFurnitureType;USERDEFINED;;;;;
+729;Øvrigt, Løst inventar;IfcFurnitureType;USERDEFINED;;;;;
+73;Inventar, tekniske-, IT- og av-inventarenheder;;;;;;;
+731;AV-udstyr;IfcAudioVisualApplianceType;;;;;;
+732;IT-udstyr;IfcCommunicationsApplianceType;;;;;;
+733;Belysning;IfcLightFixtureType;;;;;;
+734;Automater;IfcElectricApplianceType;VENDINGMACHINE;;;;;
+735;Brandslukningsudstyr;IfcFurnitureType;USERDEFINED;;;;;
+736;Hårde hvidevarer;IfcElectricApplianceType;;;;;;
+739;Øvrigt, Tekniske-, IT- og av-inventarenheder;;;;;;;
+79;Inventar, øvrige;;;;;;;
+8;Beplantning;IfcGeographicElementType;NOTDEFINED;;;;;
+80;Beplantning;IfcGeographicElementType;NOTDEFINED;;;;;
+801;Træer;IfcGeographicElementType;USERDEFINED;;;;;
+802;Buske og hække;IfcGeographicElementType;USERDEFINED;;;;;
+803;Muldlag;IfcGeographicElementType;TERRAIN;;;;;
+804;Bunddække og stauder;IfcGeographicElementType;USERDEFINED;;;;;
+805;Græsarealer;IfcGeographicElementType;USERDEFINED;;;;;
+806;Ekstensive beplantningssystemer;IfcGeographicElementType;USERDEFINED;;;;;
+807;Intensive opbygninger på tage;IfcGeographicElementType;USERDEFINED;;;;;
+809;Øvrigt, Beplantning;IfcGeographicElementType;USERDEFINED;;;;;
+81;- verkant -;;;;;;;
+89;Beplantning, øvrige;IfcGeographicElementType;;;;;;
+9;Projektudstyr;;;;;;;
+91;Projektudstyr ARK;;;;;;;
+911;FRI;;;;;;;
+92;Projektudstyr KON;;;;;;;
+921;FRI;;;;;;;
+93;Projektudstyr VENT;;;;;;;
+931;FRI;;;;;;;
+94;Projektudstyr VVS;;;;;;;
+941;FRI;;;;;;;
+95;Projektudstyr EL;;;;;;;
+951;FRI;;;;;;;
+96;Projektudstyr LAND;;;;;;;
+961;FRI;;;;;;;
+97;Projektudstyr ENTREPRENØR/LEVERANDØR;;;;;;;
+971;FRI;;;;;;;
+99;Projektudstyr, øvrige;;;;;;;
+991;FRI;;;;;;;
