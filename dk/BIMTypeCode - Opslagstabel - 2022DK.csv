@@ -22,7 +22,7 @@ BIMTypeCode;BIMTypeCode-Description;IfcTypeObject;PredefinedType;IfcGroup;IfcGro
 102;Byggegrube inkl. afstivning;;;;;;;;;
 103;Spunsvægge;IfcPileType;;;;;;;;
 104;- verkant -;;;;;;;;;
-105;"Pæle ";IfcPileType;;;;;;;;
+105;"Pæle";IfcPileType;;;;;;;;
 109;Øvrigt, Bygningsbasis i terræn;;;;;;;;;
 12;Fundamenter;;;;;;;;;
 121;Liniefundamenter;IfcFootingType;STRIP_FOOTING;;;;;;;
