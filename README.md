@@ -2,6 +2,8 @@ This is the storage for BIMTypeCode files.
 
 Choose [the 'dk' folder for danish-language files](https://github.com/bimtypecode/bimtypecode/tree/main/dk) and [the 'se' folder for swedish-language files](https://github.com/bimtypecode/bimtypecode/tree/main/se). Choose [the 'shared' folder for shared technical files](https://github.com/bimtypecode/bimtypecode/tree/main/shared)
 
+
+## Licence
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
         <a property="dct:title" rel="cc:attributionURL" href="../da/index.html">BIMTypeCode 2022</a> by 
         <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://BIM7AA.dk">BIM7AA</a> is licensed under 
