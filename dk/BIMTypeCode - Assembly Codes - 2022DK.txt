@@ -20,7 +20,7 @@
 101	Forberedt grund	3	
 102	Byggegrube inkl. afstivning	3	
 103	Spunsvægge	3	
-104	- verkant -	3	
+104	FRI	3	
 105	Pæle 	3	
 109	Øvrigt, Bygningsbasis i terræn	3	
 12	Fundamenter	2	
@@ -30,7 +30,7 @@
 124	Opmurede fundamenter	3	
 125	Maskinfundamenter	3	
 126	Pælefundamenter og brøndfundamenter	3	
-127	- verkant -	3	
+127	FRI	3	
 129	Øvrigt, Fundamenter	3	
 13	Terrændæk	2	
 131	Terrændæk	3	
@@ -84,7 +84,7 @@
 251	Elementbjælker	3	
 252	Pladsstøbte bjælker	3	
 253	Stålbjælker	3	
-254	- verkant -	3	
+254	FRI	3	
 255	Elementsøjler	3	
 256	Pladsstøbte søjler	3	
 257	Stålsøjler	3	
@@ -110,7 +110,7 @@
 303	Overgange i terræn	3	
 304	Kantbegrænsninger	3	
 305	Konstruerede elementer	3	
-309	Øvrigt terræn komplettering	3	
+309	Øvrigt terræn kompletteringer	3	
 31	Ydervægge, komplettering	2	
 311	Udvendige døre 	3	
 312	Udvendige vinduer	3	
@@ -135,15 +135,15 @@
 332	Svømmende gulve	3	
 333	Riste, måtterammer	3	
 334	Støbte- og flydende gulve	3	
-335	- verkant -	3	
-336	- verkant -	3	
+335	FRI	3	
+336	FRI	3	
 337	Gulvlemme	3	
 338	Gelændere, rækværker og håndlister	3	
 339	Øvrigt, Dækkompletteringer	3	
 34	Trapper og ramper, komplettering	2	
 341	Gelændere, rækværker og håndlister	3	
-342	- verkant -	3	
-343	- verkant -	3	
+342	FRI	3	
+343	FRI	3	
 349	Øvrigt, Trappekompletteringer	3	
 35	Lofter, komplettering	2	
 351	Indvendige nedhængte lofter	3	
@@ -152,7 +152,7 @@
 354	Udvendige påbyggede lofter	3	
 355	Indvendige loftskørter	3	
 356	Udvendige loftskørter	3	
-357	- verkant -	3	
+357	FRI	3	
 359	Øvrigt, Loftkompletteringer	3	
 36	Altaner og altangange, komplettering	2	
 361	Rækværker, brystninger	3	
@@ -162,7 +162,7 @@
 372	Ovenlys, røg- og taglemme	3	
 373	Solskærme til ovenlys	3	
 374	Sikring	3	
-375	- verkant -	3	
+375	FRI	3	
 376	Inddækninger	3	
 377	Belægninger på færdige tagflader	3	
 379	Øvrigt, Tagkompletteringer	3	
@@ -178,37 +178,37 @@
 407	Afstribninger og markeringer	3	
 409	Øvrigt, Belægninger	3	
 41	Udvendige vægoverflader	2	
-411	- verkant -	3	
+411	FRI	3	
 412	Beklædninger, påmurede, pudsede	3	
 413	Beklædninger, monterede	3	
 419	Øvrigt, Udvendige vægoverflader	3	
 42	Indvendige vægoverflader	2	
-421	- verkant -	3	
+421	FRI	3	
 422	Beklædninger, påmurede, pudsede	3	
 423	Beklædninger, monterede	3	
 429	Øvrigt, Indvendige vægoverflader	3	
 43	Dæk og gulve, overflader	2	
-431	- verkant -	3	
+431	FRI	3	
 432	Beklædninger, påmurede og støbte	3	
 433	Beklædninger, monterede	3	
 439	Øvrigt, Dæk og gulvoverflader	3	
 44	Trapper og ramper, overflader	2	
-441	- verkant -	3	
+441	FRI	3	
 442	Beklædninger, påmurede	3	
 443	Beklædninger, monterede	3	
 449	Øvrigt, Trapper og ramper, overflader	3	
 45	Lofter, overflader	2	
-451	- verkant -	3	
+451	FRI	3	
 452	Beklædninger, påmurede	3	
 453	Beklædninger, monterede	3	
 459	Øvrigt, Loftoverflader	3	
 46	Altaner, overflader	2	
-461	- verkant -	3	
+461	FRI	3	
 462	Beklædninger, påmurede	3	
 463	Beklædninger, monterede	3	
 469	Øvrigt, Altanoverflader	3	
 47	Tage, overflader	2	
-471	- verkant -	3	
+471	FRI	3	
 472	Tagdækninger	3	
 479	Øvrigt, Tagoverflader	3	
 49	Overflader bygning, øvrige	2	
@@ -359,7 +359,7 @@
 709	Øvrigt, Inventar i terræn	3	
 71	Inventar, fastmonteret	2	
 711	Opbevaringsmøbler, fastmonterede	3	
-712	- verkant -	3	
+712	FRI	3	
 713	Siddemøbler, liggemøbler	3	
 714	Gardiner, persienner, skærmvægge, forhæng	3	
 715	Borde, bordplader	3	
@@ -368,7 +368,7 @@
 719	Øvrigt, Fastmonteret inventar	3	
 72	Inventar, løst	2	
 721	Opbevaringsmøbler, løse	3	
-722	- verkant -	3	
+722	FRI	3	
 723	Siddemøbler, liggemøbler	3	
 724	Skærmvægge, forhæng	3	
 725	Borde	3	
@@ -394,7 +394,7 @@
 806	Ekstensive beplantningssystemer	3	
 807	Intensive opbygninger på tage	3	
 809	Øvrigt, Beplantning	3	
-81	- verkant -	2	
+81	FRI	2	
 89	Beplantning, øvrige	2	
 9	Projektudstyr	1	
 91	Projektudstyr ARK	2	
