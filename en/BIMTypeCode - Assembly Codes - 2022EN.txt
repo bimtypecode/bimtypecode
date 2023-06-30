@@ -1,0 +1,415 @@
+00	Generic building elements	1	
+01	Generic objects ARCH	2	
+011	Avaliable	3	
+02	Generic objects STR	2	
+021	Avaliable	3	
+03	Generic objects MECH	2	
+031	Avaliable	3	
+04	Generic objects PLUM	2	
+041	Avaliable	3	
+05	Generic objects ELEC	2	
+051	Avaliable	3	
+06	Generic objects LAND 	2	
+061	Avaliable	3	
+07	Generic objects CON/SUP	2	
+071	Avaliable	3	
+09	Generic objects, Other	2	
+091	Avaliable	3	
+1	Foundation	1	
+10	Terrain	2	
+101	Ground leveling, top soil removal	3	
+102	Cofferdam incl. stiffening	3	
+103	Sheet pile walls	3	
+104	Avaliable	3	
+105	Piles	3	
+109	Other, foundation in terrain	3	
+12	Foundation components	2	
+121	Strip foundations	3	
+122	Pad foundations	3	
+123	Footing foundations	3	
+124	Block foundations	3	
+125	Machine foundations/machine support	3	
+126	Pile foundations/circular footing	3	
+127	Avaliable	3	
+129	Other, foundations	3	
+13	Ground bearing slabs	2	
+131	Ground bearing slabs	3	
+139	Other, Ground bearing slabs	3	
+19	Other substructure elements	2	
+191	Ducts under the foundation pads	3	
+192	Pits, quarrys and swamps	3	
+2	Primary building components	1	
+20	Primary building components, Terrain	2	
+201	Free-Standing wall	3	
+202	Retaining walls	3	
+203	Utility tunnel	3	
+204	Pedestrian bridges, viaducts etc.	3	
+205	Stairs in terrain	3	
+206	Ramps in terrain	3	
+209	Other, primary building elements in terrain	3	
+21	Exterior walls	2	
+211	Exterior prefabricated walls	3	
+212	Exterior in-situ walls	3	
+213	Exterior masonry walls	3	
+214	Exterior frame structured walls	3	
+215	Exterior frame structured soffit walls 	3	
+216	Exterior curtain walls	3	
+217	Exterior wall Insulation 	3	
+218	Exterior light shafts	3	
+219	Other, exterior walls	3	
+22	Internal walls	2	
+221	Internal prefabricated walls	3	
+222	Internal in-situ walls	3	
+223	Internal brick walls	3	
+224	Internal frame structured walls	3	
+225	Internal frame structured soffit walls 	3	
+226	Internal curtain walls	3	
+229	Other, interior walls	3	
+23	Slabs	2	
+231	Prefabricated slabs	3	
+232	In-situ slabs	3	
+233	Frame structured slabs	3	
+234	Screeds	3	
+239	Other, slabs 	3	
+24	Stairs and ramps	2	
+241	Prefabricated stairs	3	
+242	In-situ stairs	3	
+243	Assembled stairs	3	
+244	Prefabricated ramps	3	
+245	In-situ ramps	3	
+246	Assembled ramps	3	
+247	Fixed ladders, ladders and steps	3	
+249	Other, stairs and ramps	3	
+25	Beams and columns 	2	
+251	Prefabricated beams	3	
+252	In-situ beams	3	
+253	Steel beams	3	
+254	Avaliable	3	
+255	Precast columns	3	
+256	In-situ columns	3	
+257	Steel columns	3	
+259	Other, beams and columns 	3	
+26	Balconies and exterior hallways	2	
+261	Prefabricated balconies and exterior hallways	3	
+262	In-situ balconies and exterior hallways 	3	
+263	Built in place balconies and exterior hallways	3	
+269	Other, balconies and exterior hallways	3	
+27	Roofs	2	
+271	Rafter roofs	3	
+272	Roof cassettes	3	
+273	Warm roofs	3	
+274	Glass roof system	3	
+275	Operable roofs	3	
+276	Canopies and shelters	3	
+279	Other, roof constructions	3	
+29	Primary building components, other	2	
+3	Complementary building components	1	
+30	Complementary building components, terrain 	2	
+301	Fences, screening	3	
+302	Railings and handrails in terrain	3	
+303	Transitions in terrain	3	
+304	Edge elements, curbing	3	
+305	Planting beds and containers	3	
+309	Other, terrain completion	3	
+31	External walls, complements	2	
+311	Exterior doors	3	
+312	Exterior windows	3	
+313	Exterior doors, curtain wall systems	3	
+314	Exterior window openings, curtain wall systems	3	
+315	Exterior panels, spandrels and mullion profiles, curtain wall systems	3	
+316	Exterior portals and revolving doors	3	
+317	Exterior screen walls	3	
+319	Other, complementaries elements to external walls	3	
+32	Internal walls, complements	2	
+321	Internal doors	3	
+322	Internal windows, hatches and trapdoors	3	
+323	Internal doors, curtain wall systems	3	
+324	Internal window openings, curtain wall systems	3	
+325	Internal windows, spandrels and mullions, curtain walls	3	
+326	Internal portals and revolving doors	3	
+327	Operable interior walls	3	
+328	Internal walls,  screen walls	3	
+329	Other, complementaries elements	3	
+33	Slabs, complements	2	
+331	Raised floors	3	
+332	Floating floors	3	
+333	Grates, mat wells, doormat frames	3	
+334	Poured floors	3	
+335	Avaliable	3	
+336	Avaliable	3	
+337	Hatches	3	
+338	Railings and handrails	3	
+339	Other, complementaries	3	
+34	Stairs and ramps, complements	2	
+341	Railings, guardrails and handrails	3	
+342	Avaliable	3	
+343	Avaliable	3	
+349	Other, stair complementaries	3	
+35	Ceiling, complements	2	
+351	Ceilings, suspended	3	
+352	External ceilings, suspended	3	
+353	Interior surface mounted ceilings	3	
+354	Exterior surface mounted ceilings	3	
+355	Interior bulkhead	3	
+356	Exterior bulkhead  	3	
+357	Avaliable	3	
+359	Other, ceiling complementaries	3	
+36	Balconies and exterior hallways, complements	2	
+361	Railings, parapets	3	
+369	Other, balconies and exterior hallways complementaries	3	
+37	Roof, complements	2	
+371	Dormers	3	
+372	Skylights, smoke hatches and roof access hatches	3	
+373	Sunscreen for skylights	3	
+374	Roof safety systems	3	
+375	Avaliable	3	
+376	Flashings	3	
+377	Coverings on finished roofs	3	
+379	Other, roof complementaries	3	
+39	Complementary building components, other 	2	
+4	Covering, cladding and finishes	1	
+40	Ground coverings and ground materials	2	
+401	Asphalt coatings	3	
+402	Concrete coatings	3	
+403	Rubber coatings	3	
+404	Tile and stone coverings	3	
+405	Crushed stone and gravel	3	
+406	Paving	3	
+407	Thermo-plastics and markings	3	
+409	Other, ground coverings and ground materials	3	
+41	Exterior wall surfaces	2	
+411	Avaliable	3	
+412	Coverings, cladded	3	
+413	Coverings, mounted	3	
+419	Other, exterior wall surfaces	3	
+42	Internal wall surfaces	2	
+421	Avaliable	3	
+422	Coverings, cladded	3	
+423	Coverings, mounted	3	
+429	Other, interior wall surfaces	3	
+43	Slabs and floors, finishes	2	
+431	Avaliable	3	
+432	Coverings, cladded	3	
+433	Coverings, mounted	3	
+439	Other, suspended floors, surfaces	3	
+44	Stairs and ramps, finishes	2	
+441	Avaliable	3	
+442	Coverings, cladded	3	
+443	Coverings, mounted	3	
+449	Other, stair and ramp surfaces	3	
+45	Ceilings, finishes	2	
+451	Avaliable	3	
+452	Coverings, cladded	3	
+453	Coverings, mounted	3	
+459	Other, ceiling surfaces	3	
+46	Balconies, finishes	2	
+461	Avaliable	3	
+462	Coverings, cladded	3	
+463	Coverings, mounted	3	
+469	Other, balconie surfaces	3	
+47	Roof, finishes	2	
+471	Avaliable	3	
+472	Coverings, cladded	3	
+479	Other, roof surfaces	3	
+49	Finishes, other components	2	
+5	Plumbing - and HVAC control systems	1	
+50	Plumbing fixtures in terrain	2	
+501	In ground, metal and concrete pipes	3	
+502	In ground, flexible plastic pipe	3	
+503	In ground, hard Plastic Pipe	3	
+504	Manholes	3	
+505	Grating/line drain	3	
+506	Seperator (oil, fat, petrol)	3	
+507	Sanitation connections	3	
+508	Accessories	3	
+509	Other, plumbing - and HVAC control systems	3	
+51	Logistics	2	
+511	Logistics	3	
+519	Other, logistics	3	
+52	Drainage and sanitation	2	
+521	Waste water, connections	3	
+522	Toilets, connections	3	
+523	Sinks, connections	3	
+524	Water and drainage, connections	3	
+525	Water and drainage, connections to technical equipment	3	
+526	Water and drainage, connections to lab. equipment	3	
+527	Rainwater, connections	3	
+528	Drainage, sanitary and rainwater items	3	
+529	Other, drainage and sanitation, connections	3	
+53	Water (cold / hot water, treated water)	2	
+531	Mechanical equipment 	3	
+532	Water supply connection	3	
+533	Water treatment system	3	
+534	Fire extinguishing, connections	3	
+535	Meters, water	3	
+536	Fittings, water objects	3	
+539	Other, water	3	
+54	Air Types (Gas, compressed air, Vacum, Steam)	2	
+541	Mechanical equipment 	3	
+542	Air type extraction	3	
+543	Air type production system 	3	
+545	Accessories 	3	
+546	Meters, air type	3	
+549	Other, air Type	3	
+55	Cooling	2	
+551	Mechanical equipment 	3	
+552	Cooling devices	3	
+553	Cooling producing installation	3	
+554	Meters, cooling	3	
+559	Other, cooling	3	
+56	Heating	2	
+561	Mechanical equipment 	3	
+562	Heaters	3	
+563	Heating systems	3	
+564	Metes, heating	3	
+569	Other, heating	3	
+57	Ventilation	2	
+571	Ducts 	3	
+572	Ventilation cooling/ heating exchanger	3	
+573	Duct accessories 	3	
+574	Fans 	3	
+575	Air terminal	3	
+576	Connection to equipment 	3	
+577	Roof cap / duct penetrations	3	
+578	Duct insulation	3	
+579	Other, ventilation	3	
+58	Sprinkler	2	
+581	Mechanical equipment 	3	
+582	Sprinkler head (nozzel)	3	
+583	Fire hose cabinet 	3	
+589	Other, sprinkler	3	
+59	Multi discipline components	2	
+591	Metal pipework	3	
+592	Flexible plastic ducting	3	
+593	Rigid plastic ducting	3	
+594	Static valve	3	
+595	Dynamic Valve 	3	
+596	Motorised pipe accessories 	3	
+597	Gauges, Filters and misc.	3	
+598	Pipe Insulation 	3	
+599	Bearings, recesses and others	3	
+6	Electrical and mechanical installations	1	
+60	Electrical and mechanical installations, terrain	2	
+601	Wires	3	
+602	Lighting	3	
+603	Installation for underground facilities	3	
+604	Installation for above ground level facilities	3	
+605	Traffic management	3	
+606	Underground sewerage	3	
+609	Other, electrical and mechanical installations, terrain	3	
+61	Routing	2	
+611	Routing	3	
+612	Trunking	3	
+613	Cable ducts	3	
+614	Fiber trays	3	
+615	Bearings, recesses and others	3	
+616	boxes and castings/ mouldings	3	
+619	Other, routing	3	
+62	High voltage	2	
+621	Supply	3	
+622	Distribution	3	
+623	Installations for appliances and machines	3	
+629	Other, high voltage	3	
+63	Low voltage	2	
+631	Supply - external	3	
+632	Distribution	3	
+633	Installations for appliances and machines	3	
+634	Thermal facilities	3	
+635	Lighting installations	3	
+636	Lighting fixtures	3	
+637	Power installations	3	
+638	Renewable energy - Internal distribution	3	
+639	Other, low voltage	3	
+64	Communication and information	2	
+641	Communication	3	
+642	Information	3	
+643	Audio, video and antenna	3	
+644	IT infrastructure	3	
+649	Other, communication and information	3	
+65	Security	2	
+651	Access security	3	
+652	Security systems	3	
+653	Individual safeguarding systems	3	
+659	Other, security	3	
+66	Building automation	2	
+661	Building Management Systems	3	
+662	Central control system	3	
+663	Decentralized control system	3	
+664	Automation components	3	
+669	Other, building automation	3	
+67	Voltage equalisation	2	
+671	Surge protection	3	
+672	Equalizer connections	3	
+679	Other, protection	3	
+68	Person-, material- and service transport	2	
+681	Passenger transportation	3	
+682	Cargo and material transportation	3	
+683	Services transportation	3	
+689	Other, transportation	3	
+69	Electrical and mechanical installations, other	2	
+7	Furniture and equipment	1	
+70	Equipment, terrain	2	
+701	Technical equipment	3	
+702	Boards, signs and screens	3	
+703	Storage, trash racks, bike racks, mailboxes	3	
+704	Tables	3	
+705	Seating furniture	3	
+706	Shelters and Screening	3	
+707	Sport and playground equipment	3	
+709	Other, fixtures in the terrain	3	
+71	Built-in fixtures and furniture	2	
+711	Storage units, fixed	3	
+712	Avaliable	3	
+713	Seating furniture, lounge furniture	3	
+714	Curtains, blinds, shades	3	
+715	Tables, benches	3	
+716	Signs, boards	3	
+717	Decrative fixtures	3	
+719	Other, fixed furniture	3	
+72	Fittings and furniture	2	
+721	Storage units, movable	3	
+722	Avaliable	3	
+723	Seating furniture, lounge furniture	3	
+724	Screens, curtains	3	
+725	Tables	3	
+726	Stands, shelves	3	
+727	Mats, rugs, runners	3	
+729	Other, movable fittings	3	
+73	Fixtures, technical, IT and AV	2	
+731	AV equipment	3	
+732	IT equipment	3	
+733	Lighting	3	
+734	Vending machines	3	
+735	Firefighting equipment	3	
+736	Appliances	3	
+739	Other, fixtures, technical, IT and audio-visual	3	
+79	Furniture, other	2	
+8	Planting	1	
+80	Planting	2	
+801	Trees	3	
+802	Hedges	3	
+803	Topsoil	3	
+804	Ground cover plants and perennials	3	
+805	Lawn	3	
+806	Extensive planting systems	3	
+807	Intensive green roofs	3	
+809	Other planting	3	
+81	Avaliable	2	
+89	Planting, other	2	
+9	Project Equipment	1	
+91	Project equipment ARCH	2	
+911	Avaliable	3	
+92	Project equipment STR	2	
+921	Avaliable	3	
+93	Project equipment MECH	2	
+931	Avaliable	3	
+94	Project equipment PLUM	2	
+941	Avaliable	3	
+95	Project equipment ELEC	2	
+951	Avaliable	3	
+96	Project equipment LAND	2	
+961	Avaliable	3	
+97	Project equipment CON/SUP	2	
+971	Avaliable	3	
+99	Project equipment, Other	2	
+991	Avaliable	3	
